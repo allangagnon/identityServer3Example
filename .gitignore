@@ -1,0 +1,13 @@
+#Visual Studio Files
+.ntvs_analysis.dat
+*.suo
+*.user
+*.sln.docstates
+
+#Visual Studio Folders
+packages/
+[Bb]in/
+[Oo]bj/
+
+# Database Files
+App_Data/
