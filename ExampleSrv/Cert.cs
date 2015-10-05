@@ -10,7 +10,7 @@ namespace ExampleSrv
     {
         public static X509Certificate2 Load()
         {
-            string _certPath = @"S:\src\SandBox\ExampleApp\ExampleSrv\bin\Certs\idsrv3test.pfx";
+            string _certPath = string.Format(@"{0}\bin\Certs\idsrv3test.pfx", AppDomain.CurrentDomain.BaseDirectory);
             return new X509Certificate2(_certPath, "idsrv3test");
         }
     }
