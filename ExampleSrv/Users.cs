@@ -17,11 +17,11 @@ namespace ExampleSrv
                 Subject = "1",
                 Claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.GivenName, "Scott"),
-                    new Claim(ClaimTypes.Surname, "Sloan"),
-                    new Claim(ClaimTypes.Email, "scottsloan@gmail.com"),
-                    new Claim(ClaimTypes.Role, "Geek"),
-                    new Claim(ClaimTypes.Role, "Foo")
+                    new Claim(IdentityServer3.Core.Constants.ClaimTypes.GivenName, "Scott"),
+                    new Claim(IdentityServer3.Core.Constants.ClaimTypes.FamilyName, "Sloan"),
+                    new Claim(IdentityServer3.Core.Constants.ClaimTypes.Email, "scottsloan@gmail.com"),
+                    new Claim(IdentityServer3.Core.Constants.ClaimTypes.Role, "Geek"),
+                    new Claim(IdentityServer3.Core.Constants.ClaimTypes.Role, "Foo")
                 }
             });
 
