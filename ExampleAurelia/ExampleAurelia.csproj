@@ -69,7 +69,6 @@
     <Content Include="src\app.html" />
     <Content Include="src\app.js" />
     <Content Include="src\auth-config.js" />
-    <Content Include="src\blur-image.js" />
     <Content Include="src\login.html" />
     <Content Include="src\login.js" />
     <Content Include="src\logout.html" />
