@@ -32,7 +32,6 @@ namespace ExampleAPI
             // web api configuration
             var config = new HttpConfiguration();
             config.MapHttpAttributeRoutes();
-            //app.UseCors(CorsOptions.AllowAll);
 
             app.UseWebApi(config);
         }
