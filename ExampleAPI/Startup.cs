@@ -5,6 +5,7 @@ using System.Web.Http;
 using System.Threading.Tasks;
 using System.Security.Claims;
 using System.Linq;
+using Microsoft.Owin.Cors;
 
 namespace ExampleAPI
 {
@@ -12,6 +13,7 @@ namespace ExampleAPI
     {
         public void Configuration(IAppBuilder app)
         {
+           
             // token validation
             app.UseIdentityServerBearerTokenAuthentication(new IdentityServerBearerTokenAuthenticationOptions
             {
@@ -29,10 +31,11 @@ namespace ExampleAPI
                 return Task.FromResult(appPrincipal);
             });
 
-            // web api configuration
+            app.UseCors(CorsOptions.AllowAll);
+
             var config = new HttpConfiguration();
             config.MapHttpAttributeRoutes();
-
+            // web api configuration
             app.UseWebApi(config);
         }
     }
