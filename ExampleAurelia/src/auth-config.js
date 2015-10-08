@@ -13,7 +13,7 @@
 
 var config = {
     baseUrl : 'https://localhost:44301/core',
-    tokenName : 'id_token',
+    tokenName : 'access_token',
     profileUrl: '/connect/userinfo',
     logoutUrl : '/connect/endsession',
     //directs
