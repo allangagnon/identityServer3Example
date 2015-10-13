@@ -1,4 +1,4 @@
-﻿import {AuthorizeStep} from 'aurelia-auth';  
+﻿import {AuthorizeStep} from 'devscott/aurelia-auth';  
 import {inject} from 'aurelia-framework';  
 import {Router} from 'aurelia-router';
 

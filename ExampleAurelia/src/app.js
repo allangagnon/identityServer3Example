@@ -1,6 +1,6 @@
 import {inject} from 'aurelia-framework';  
 import {Router} from 'aurelia-router';  
-import HttpClientConfig from 'aurelia-auth/app.httpClient.config'; 
+import HttpClientConfig from 'devscott/aurelia-auth/app.httpClient.config'; 
 import AppRouterConfig from 'router-config';
 
 @inject(Router, HttpClientConfig, AppRouterConfig)

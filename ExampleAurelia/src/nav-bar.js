@@ -1,7 +1,7 @@
 ﻿import {bindable} from 'aurelia-framework';  
 import {inject} from 'aurelia-framework';  
 import {computedFrom} from 'aurelia-framework';  
-import {AuthService} from 'aurelia-auth';
+import {AuthService} from 'devscott/aurelia-auth';
 
 @inject(AuthService)
 export class NavBar {  
