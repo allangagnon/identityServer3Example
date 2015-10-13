@@ -1,17 +1,4 @@
-﻿//  httpInterceptor: true,
-//  loginOnSignup: true,  
-//  signupRedirect: '/login',
-//  loginUrl: '/auth/login',
-//  signupUrl: '/auth/signup',
-//  loginRoute: '/login',
-//  signupRoute: '/signup',
-//  tokenRoot: false,
-//  tokenName: 'token',
-//  tokenPrefix: 'aurelia',
-//  unlinkUrl: '/auth/unlink/',
-//  unlinkMethod: 'get',
-
-var config = {
+﻿var config = {
     baseUrl : 'https://localhost:44301/core',
     tokenName : 'access_token',
     profileUrl: '/connect/userinfo',
