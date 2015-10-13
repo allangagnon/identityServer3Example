@@ -16,7 +16,6 @@ System.config({
 
   map: {
     "aurelia-animator-css": "github:aurelia/animator-css@0.16.0",
-    "aurelia-auth": "github:paulvanbladel/aurelia-auth@0.9.17",
     "aurelia-binding": "github:aurelia/binding@0.9.1",
     "aurelia-bootstrapper": "github:aurelia/bootstrapper@0.17.0",
     "aurelia-dependency-injection": "github:aurelia/dependency-injection@0.10.1",
@@ -42,6 +41,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.20",
     "bootstrap": "github:twbs/bootstrap@3.3.5",
     "core-js": "npm:core-js@0.9.18",
+    "devscott/aurelia-auth": "github:devscott/aurelia-auth@0.10.2",
     "fetch": "github:github/fetch@0.9.0",
     "font-awesome": "npm:font-awesome@4.4.0",
     "text": "github:systemjs/plugin-text@0.0.2",
@@ -161,10 +161,10 @@ System.config({
       "aurelia-task-queue": "github:aurelia/task-queue@0.7.0",
       "core-js": "npm:core-js@0.9.18"
     },
-    "github:jdanyow/aurelia-computed@0.6.0": {
-      "aurelia-binding": "github:aurelia/binding@0.9.1",
-      "aurelia-logging": "github:aurelia/logging@0.7.0",
-      "core-js": "npm:core-js@0.9.18"
+    "github:devscott/aurelia-auth@0.10.2": {
+      "aurelia-framework": "github:aurelia/framework@0.16.0",
+      "aurelia-http-client": "github:aurelia/http-client@0.11.0",
+      "aurelia-router": "github:aurelia/router@0.12.0"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -174,11 +174,6 @@ System.config({
     },
     "github:jspm/nodelibs-util@0.1.0": {
       "util": "npm:util@0.10.3"
-    },
-    "github:paulvanbladel/aurelia-auth@0.9.17": {
-      "aurelia-framework": "github:aurelia/framework@0.16.0",
-      "aurelia-http-client": "github:aurelia/http-client@0.11.0",
-      "aurelia-router": "github:aurelia/router@0.12.0"
     },
     "github:twbs/bootstrap@3.3.5": {
       "jquery": "github:components/jquery@2.1.4"
