@@ -35,6 +35,7 @@ var config = {
             display: 'popup',
             type: '2.0',
             clientId: 'jsClient',
+            flow: 'hybrid',
             nonce : function(){
                 var val = ((Date.now() + Math.random()) * Math.random()).toString().replace(".", "");
                 return encodeURIComponent(val);
