@@ -78,6 +78,7 @@ namespace ExampleMVC
 
                             if (idTokenHint != null)
                             {
+                                n.ProtocolMessage.PostLogoutRedirectUri = Constants.ImplicitClientUri;
                                 n.ProtocolMessage.IdTokenHint = idTokenHint.Value;
                             }
                         }
