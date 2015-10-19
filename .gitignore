@@ -8,6 +8,7 @@
 packages/
 [Bb]in/
 [Oo]bj/
+.vs/
 
 # Database Files
 App_Data/
