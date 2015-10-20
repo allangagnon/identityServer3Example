@@ -2,8 +2,7 @@
     baseUrl : 'https://localhost:44301/core',
     tokenName : 'access_token',
     profileUrl: '/connect/userinfo',
-    logoutUrl : '/connect/endsession',
-    //directs
+    unlinkUrl : '/connect/endsession',
     logoutRedirect: '/',
     loginRedirect : '#/',
     providers : {
