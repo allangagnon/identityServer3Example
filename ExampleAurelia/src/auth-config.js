@@ -1,10 +1,10 @@
 ﻿var config = {
     baseUrl : 'https://localhost:44301/core',
-    tokenName : 'access_token',
+    tokenName : 'id_token',
     profileUrl: '/connect/userinfo',
     unlinkUrl : '/connect/endsession',
     logoutRedirect: '/',
-    loginRedirect : '#/',
+    loginRedirect : 'http://localhost:9000',
     providers : {
         identSrv : {
             name: 'identSrv',
