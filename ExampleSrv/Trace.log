@@ -1,0 +1,2720 @@
+iisexpress.exe Warning: 0 : 2015-10-22 10:38:25.918 -05:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-10-22 10:38:25.947 -05:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-10-22 10:38:25.951 -05:00 [Warning] ConsentStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-10-22 10:38:25.951 -05:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+iisexpress.exe Information: 0 : 2015-10-22 10:38:26.456 -05:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-20T16:00:00-06:00"
+  },
+  "Context": {
+    "TimeStamp": "2015-10-22T15:38:26.3480585+00:00",
+    "ProcessId": 8020,
+    "MachineName": "L30005"
+  }
+}
+iisexpress.exe Information: 0 : 2015-10-22 10:38:26.680 -05:00 [Information] Welcome page requested - rendering
+iisexpress.exe Information: 0 : 2015-10-22 10:38:48.450 -05:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-10-22 10:38:48.453 -05:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-10-22 10:38:48.453 -05:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-10-22 10:38:48.465 -05:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-10-22 10:38:51.480 -05:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-10-22 10:38:51.480 -05:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-10-22 10:38:51.480 -05:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-10-22 10:38:51.481 -05:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-10-22 10:38:53.721 -05:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-10-22 10:38:53.726 -05:00 [Information] Start authorize request protocol validation
+iisexpress.exe Error: 0 : 2015-10-22 10:38:53.744 -05:00 [Error] "Invalid flow for client: Implicit"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:9000\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"\",
+  \"State\": \"14175953083062256\",
+  \"Raw\": {
+    \"state\": \"14175953083062256\",
+    \"nonce\": \"42676774067507014\",
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-10-22 10:38:53.749 -05:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint failure",
+  "EventType": "Failure",
+  "Id": 3001,
+  "Message": "unauthorized_client",
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "80000019-0001-e800-b63f-84710c7967bb",
+    "TimeStamp": "2015-10-22T15:38:53.7471831+00:00",
+    "ProcessId": 8020,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-10-22 10:38:53.751 -05:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-10-22 10:42:21.498 -05:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-10-22 10:42:21.498 -05:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-10-22 10:42:21.498 -05:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-10-22 10:42:21.499 -05:00 [Information] Start discovery request
+iisexpress.exe Warning: 0 : 2015-10-22 10:44:29.607 -05:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-10-22 10:44:29.627 -05:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-10-22 10:44:29.627 -05:00 [Warning] ConsentStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-10-22 10:44:29.627 -05:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+iisexpress.exe Information: 0 : 2015-10-22 10:44:30.085 -05:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-20T16:00:00-06:00"
+  },
+  "Context": {
+    "TimeStamp": "2015-10-22T15:44:29.9501792+00:00",
+    "ProcessId": 6860,
+    "MachineName": "L30005"
+  }
+}
+iisexpress.exe Information: 0 : 2015-10-22 10:44:30.146 -05:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-10-22 10:44:30.152 -05:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-10-22 10:44:30.152 -05:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-10-22 10:44:30.276 -05:00 [Information] Welcome page requested - rendering
+iisexpress.exe Information: 0 : 2015-10-22 10:44:30.279 -05:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-10-22 10:44:49.564 -05:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-10-22 10:44:49.570 -05:00 [Information] Start authorize request protocol validation
+iisexpress.exe Error: 0 : 2015-10-22 10:44:49.589 -05:00 [Error] "Invalid flow for client: Implicit"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:9000\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"\",
+  \"State\": \"793272941044461\",
+  \"Raw\": {
+    \"state\": \"793272941044461\",
+    \"nonce\": \"8616074745944615\",
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-10-22 10:44:49.594 -05:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint failure",
+  "EventType": "Failure",
+  "Id": 3001,
+  "Message": "unauthorized_client",
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "80000026-0000-f400-b63f-84710c7967bb",
+    "TimeStamp": "2015-10-22T15:44:49.5928736+00:00",
+    "ProcessId": 6860,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-10-22 10:44:49.596 -05:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-10-22 10:44:52.365 -05:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-10-22 10:44:52.366 -05:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-10-22 10:44:52.366 -05:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-10-22 10:44:52.366 -05:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-10-22 10:54:13.684 -05:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-10-22 10:54:13.684 -05:00 [Information] Start authorize request protocol validation
+iisexpress.exe Error: 0 : 2015-10-22 10:54:13.684 -05:00 [Error] "Invalid flow for client: Implicit"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:9000\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"\",
+  \"State\": \"6341287453213267\",
+  \"Raw\": {
+    \"state\": \"6341287453213267\",
+    \"nonce\": \"1360119756763793\",
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-10-22 10:54:13.684 -05:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint failure",
+  "EventType": "Failure",
+  "Id": 3001,
+  "Message": "unauthorized_client",
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "8000001b-0001-eb00-b63f-84710c7967bb",
+    "TimeStamp": "2015-10-22T15:54:13.6849229+00:00",
+    "ProcessId": 6860,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-10-22 10:54:13.684 -05:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-10-22 10:58:58.167 -05:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-10-22 10:58:58.167 -05:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-10-22 10:58:58.182 -05:00 [Information] Unsupported display mode - ignored: popup
+iisexpress.exe Information: 0 : 2015-10-22 10:58:58.183 -05:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"http://localhost:9000\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:9000\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"code id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Hybrid\",
+  \"RequestedScopes\": \"profile apiAccess openid\",
+  \"Nonce\": \"14432825818201997\",
+  \"DisplayMode\": \"popup\",
+  \"Raw\": {
+    \"response_type\": \"code id_token token\",
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"http://localhost:9000\",
+    \"scope\": \"profile apiAccess openid\",
+    \"nonce\": \"14432825818201997\",
+    \"display\": \"popup\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-10-22 10:58:58.191 -05:00 [Information] User is not authenticated. Redirecting to login.
+iisexpress.exe Information: 0 : 2015-10-22 10:58:58.205 -05:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-10-22 10:58:58.208 -05:00 [Information] Redirecting to login page
+2015-10-22 10:58:58.230 -05:00 [Debug] Protecting message: "{\"ReturnUrl\":\"https://localhost:44301/core/connect/authorize?response_type=code%20id_token%20token&client_id=jsClient&redirect_uri=http%3A%2F%2Flocalhost%3A9000&scope=profile%20apiAccess%20openid&nonce=14432825818201997&display=popup\",\"ClientId\":\"jsClient\",\"DisplayMode\":\"popup\",\"AcrValues\":[],\"Created\":635811263381678754}"
+iisexpress.exe Information: 0 : 2015-10-22 10:58:58.287 -05:00 [Information] Login page requested
+2015-10-22 10:58:58.337 -05:00 [Debug] signin message passed to login: "{
+  \"ReturnUrl\": \"https://localhost:44301/core/connect/authorize?response_type=code%20id_token%20token&client_id=jsClient&redirect_uri=http%3A%2F%2Flocalhost%3A9000&scope=profile%20apiAccess%20openid&nonce=14432825818201997&display=popup\",
+  \"ClientId\": \"jsClient\",
+  \"IdP\": null,
+  \"Tenant\": null,
+  \"LoginHint\": null,
+  \"DisplayMode\": \"popup\",
+  \"UiLocales\": null,
+  \"AcrValues\": [],
+  \"Created\": 635811263381678754
+}"
+iisexpress.exe Information: 0 : 2015-10-22 10:58:58.354 -05:00 [Information] rendering login page
+iisexpress.exe Information: 0 : 2015-10-22 10:59:50.348 -05:00 [Information] Login page submitted
+iisexpress.exe Information: 0 : 2015-10-22 10:59:50.354 -05:00 [Information] Login credentials successfully validated by user service
+iisexpress.exe Information: 0 : 2015-10-22 10:59:50.361 -05:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Local Login Success",
+  "EventType": "Success",
+  "Id": 1010,
+  "Details": {
+    "LoginUserName": "s",
+    "SignInId": "a24089159176490ca24fb5860137ce40",
+    "SignInMessage": {
+      "ReturnUrl": "https://localhost:44301/core/connect/authorize?response_type=code%20id_token%20token&client_id=jsClient&redirect_uri=http%3A%2F%2Flocalhost%3A9000&scope=profile%20apiAccess%20openid&nonce=14432825818201997&display=popup",
+      "ClientId": "jsClient",
+      "DisplayMode": "popup",
+      "AcrValues": [],
+      "Created": 635811263381678754
+    },
+    "PartialLogin": false,
+    "SubjectId": "1",
+    "Name": "s"
+  },
+  "Context": {
+    "ActivityId": "8000000c-0000-f100-b63f-84710c7967bb",
+    "TimeStamp": "2015-10-22T15:59:50.3582075+00:00",
+    "ProcessId": 6860,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-10-22 10:59:50.364 -05:00 [Information] Calling PostAuthenticateAsync on the user service
+iisexpress.exe Information: 0 : 2015-10-22 10:59:50.367 -05:00 [Information] issuing primary signin cookie
+iisexpress.exe Information: 0 : 2015-10-22 10:59:50.371 -05:00 [Information] redirecting to: https://localhost:44301/core/connect/authorize?response_type=code id_token token&client_id=jsClient&redirect_uri=http:%2F%2Flocalhost:9000&scope=profile apiAccess openid&nonce=14432825818201997&display=popup
+iisexpress.exe Information: 0 : 2015-10-22 10:59:50.395 -05:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-10-22 10:59:50.395 -05:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-10-22 10:59:50.396 -05:00 [Information] Unsupported display mode - ignored: popup
+iisexpress.exe Information: 0 : 2015-10-22 10:59:50.396 -05:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"http://localhost:9000\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:9000\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"1\",
+  \"ResponseType\": \"code id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Hybrid\",
+  \"RequestedScopes\": \"profile apiAccess openid\",
+  \"Nonce\": \"14432825818201997\",
+  \"DisplayMode\": \"popup\",
+  \"SessionId\": \"07cd23c6a401ee071c7504df41f32f0b\",
+  \"Raw\": {
+    \"response_type\": \"code id_token token\",
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"http://localhost:9000\",
+    \"scope\": \"profile apiAccess openid\",
+    \"nonce\": \"14432825818201997\",
+    \"display\": \"popup\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-10-22 10:59:50.401 -05:00 [Information] Showing consent screen
+iisexpress.exe Information: 0 : 2015-10-22 10:59:50.403 -05:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-10-22 11:00:01.913 -05:00 [Information] Resuming from consent, restarting validation
+iisexpress.exe Information: 0 : 2015-10-22 11:00:01.913 -05:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-10-22 11:00:01.913 -05:00 [Information] Unsupported display mode - ignored: popup
+iisexpress.exe Information: 0 : 2015-10-22 11:00:01.913 -05:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"http://localhost:9000\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:9000\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"1\",
+  \"ResponseType\": \"code id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Hybrid\",
+  \"RequestedScopes\": \"profile apiAccess openid\",
+  \"Nonce\": \"14432825818201997\",
+  \"DisplayMode\": \"popup\",
+  \"SessionId\": \"07cd23c6a401ee071c7504df41f32f0b\",
+  \"Raw\": {
+    \"response_type\": \"code id_token token\",
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"http://localhost:9000\",
+    \"scope\": \"profile apiAccess openid\",
+    \"nonce\": \"14432825818201997\",
+    \"display\": \"popup\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-10-22 11:00:01.925 -05:00 [Information] Creating Hybrid Flow response.
+iisexpress.exe Information: 0 : 2015-10-22 11:00:01.934 -05:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Authorization code issued",
+  "EventType": "Information",
+  "Id": 2010,
+  "Details": {
+    "HandleId": "3d1c06fbd54fede7d4837f73cc6637b3",
+    "RedirectUri": "http://localhost:9000",
+    "SubjectId": "1",
+    "ClientId": "jsClient",
+    "Scopes": [
+      "profile",
+      "apiAccess",
+      "openid"
+    ],
+    "Lifetime": 300
+  },
+  "Context": {
+    "ActivityId": "80000010-0000-f100-b63f-84710c7967bb",
+    "TimeStamp": "2015-10-22T16:00:01.9291885+00:00",
+    "ProcessId": 6860,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-10-22 11:00:01.937 -05:00 [Information] Creating Implicit Flow response.
+2015-10-22 11:00:01.939 -05:00 [Debug] Creating access token
+2015-10-22 11:00:01.945 -05:00 [Debug] Creating JWT access token
+iisexpress.exe Information: 0 : 2015-10-22 11:00:01.996 -05:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Access token issued",
+  "EventType": "Information",
+  "Id": 2000,
+  "Details": {
+    "TokenType": "Jwt",
+    "SubjectId": "1",
+    "ClientId": "jsClient",
+    "Scopes": [
+      "profile",
+      "apiAccess",
+      "openid"
+    ],
+    "Lifetime": 3600,
+    "Claims": {
+      "client_id": "jsClient",
+      "scope": [
+        "profile",
+        "apiAccess",
+        "openid"
+      ],
+      "sub": "1",
+      "amr": "password",
+      "auth_time": 1445529590,
+      "idp": "idsrv",
+      "given_name": "Scott",
+      "family_name": "Sloan",
+      "email": "scottsloan@gmail.com",
+      "role": [
+        "Geek",
+        "Foo"
+      ]
+    }
+  },
+  "Context": {
+    "ActivityId": "80000010-0000-f100-b63f-84710c7967bb",
+    "TimeStamp": "2015-10-22T16:00:01.9891505+00:00",
+    "ProcessId": 6860,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+2015-10-22 11:00:01.998 -05:00 [Debug] Creating identity token
+iisexpress.exe Information: 0 : 2015-10-22 11:00:02.002 -05:00 [Information] Getting claims for identity token for subject: 1
+2015-10-22 11:00:02.002 -05:00 [Debug] Creating JWT identity token
+iisexpress.exe Information: 0 : 2015-10-22 11:00:02.014 -05:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Identity token issued",
+  "EventType": "Information",
+  "Id": 2001,
+  "Details": {
+    "SubjectId": "1",
+    "ClientId": "jsClient",
+    "Lifetime": 300,
+    "Claims": {
+      "nonce": "14432825818201997",
+      "iat": 1445529601,
+      "at_hash": "nvF0zzwyJGQ3BEHtVGrRGw",
+      "c_hash": "19wNARFClD8ZD-AjCOcbpA",
+      "sub": "1",
+      "amr": "password",
+      "auth_time": 1445529590,
+      "idp": "idsrv",
+      "given_name": "Scott",
+      "family_name": "Sloan",
+      "email": "scottsloan@gmail.com",
+      "role": [
+        "Geek",
+        "Foo"
+      ]
+    }
+  },
+  "Context": {
+    "ActivityId": "80000010-0000-f100-b63f-84710c7967bb",
+    "TimeStamp": "2015-10-22T16:00:02.0121988+00:00",
+    "ProcessId": 6860,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-10-22 11:00:02.017 -05:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint success",
+  "EventType": "Success",
+  "Id": 3000,
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "80000010-0000-f100-b63f-84710c7967bb",
+    "TimeStamp": "2015-10-22T16:00:02.0170768+00:00",
+    "ProcessId": 6860,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-10-22 11:00:02.020 -05:00 [Information] Redirecting to: http://localhost:9000
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.163 -05:00 [Information] CORS request made for path: "/connect/userinfo" from origin: "http://localhost:9000"
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.164 -05:00 [Information] AllowAll true, so origin: "http://localhost:9000" is allowed
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.164 -05:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.172 -05:00 [Information] CORS request made for path: "/connect/userinfo" from origin: "http://localhost:9000"
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.173 -05:00 [Information] AllowAll true, so origin: "http://localhost:9000" is allowed
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.173 -05:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.178 -05:00 [Information] Start userinfo request
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.179 -05:00 [Information] Token found: AuthorizationHeader
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.182 -05:00 [Information] Start access token validation
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.231 -05:00 [Information] "Token validation success"
+"{
+  \"ValidateLifetime\": true,
+  \"AccessTokenType\": \"Jwt\",
+  \"ExpectedScope\": \"openid\",
+  \"Claims\": {
+    \"client_id\": \"jsClient\",
+    \"scope\": [
+      \"profile\",
+      \"apiAccess\",
+      \"openid\"
+    ],
+    \"sub\": \"1\",
+    \"amr\": \"password\",
+    \"auth_time\": \"1445529590\",
+    \"idp\": \"idsrv\",
+    \"given_name\": \"Scott\",
+    \"family_name\": \"Sloan\",
+    \"email\": \"scottsloan@gmail.com\",
+    \"role\": [
+      \"Geek\",
+      \"Foo\"
+    ],
+    \"iss\": \"https://localhost:44301/core\",
+    \"aud\": \"https://localhost:44301/core/resources\",
+    \"exp\": \"1445533201\",
+    \"nbf\": \"1445529601\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.233 -05:00 [Information] Creating userinfo response
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.235 -05:00 [Information] Scopes in access token: "profile apiAccess openid"
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.235 -05:00 [Information] Requested claim types: "name family_name given_name middle_name nickname preferred_username profile picture website gender birthdate zoneinfo locale updated_at sub"
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.236 -05:00 [Information] Profile service returned to the following claim types: "given_name family_name email role role"
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.236 -05:00 [Information] End userinfo request
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.237 -05:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint success",
+  "EventType": "Success",
+  "Id": 3000,
+  "Details": {
+    "EndpointName": "userinfo"
+  },
+  "Context": {
+    "ActivityId": "80000021-0001-e500-b63f-84710c7967bb",
+    "TimeStamp": "2015-10-22T16:00:03.236115+00:00",
+    "ProcessId": 6860,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-10-22 11:00:03.238 -05:00 [Information] Returning userinfo response.
+iisexpress.exe Information: 0 : 2015-10-22 11:00:05.221 -05:00 [Information] Start end session request
+iisexpress.exe Information: 0 : 2015-10-22 11:00:05.227 -05:00 [Information] Start end session request validation
+iisexpress.exe Information: 0 : 2015-10-22 11:00:05.231 -05:00 [Information] Start identity token validation
+iisexpress.exe Error: 0 : 2015-10-22 11:00:05.232 -05:00 [Error] "Unknown or diabled client."
+"{
+  \"ClientId\": \"https://localhost:44301/core/resources\",
+  \"ValidateLifetime\": false
+}"
+iisexpress.exe Error: 0 : 2015-10-22 11:00:05.234 -05:00 [Error] "Error validating id token hint."
+"{
+  \"SubjectId\": \"1\",
+  \"Raw\": {
+    \"id_token_hint\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSIsImtpZCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSJ9.eyJjbGllbnRfaWQiOiJqc0NsaWVudCIsInNjb3BlIjpbInByb2ZpbGUiLCJhcGlBY2Nlc3MiLCJvcGVuaWQiXSwic3ViIjoiMSIsImFtciI6WyJwYXNzd29yZCJdLCJhdXRoX3RpbWUiOjE0NDU1Mjk1OTAsImlkcCI6Imlkc3J2IiwiZ2l2ZW5fbmFtZSI6IlNjb3R0IiwiZmFtaWx5X25hbWUiOiJTbG9hbiIsImVtYWlsIjoic2NvdHRzbG9hbkBnbWFpbC5jb20iLCJyb2xlIjpbIkdlZWsiLCJGb28iXSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzMDEvY29yZSIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzAxL2NvcmUvcmVzb3VyY2VzIiwiZXhwIjoxNDQ1NTMzMjAxLCJuYmYiOjE0NDU1Mjk2MDF9.hFAhZ34CMeZfoUznIIf3RAxDOilT4kvbeF3zBv9lRhoe1v59T_at9TJCea60xDeuwSj5C2NtDsO9o4PrZHUyhE65kzm6j2qw29wmnRuN0A0G-tysdObnrFC3gjirxxARAHxjXlS5nfYp8adC-n7-oIFi1s13d4--zKsYGHXuL2lRBwNowJzKqjkcZ8PO3m_oQTQJjhE0GV9g9d_vaCSyF6B18r-cCjhxdmFrdXCmS0LzL7fUbHIx4R0idi2xsAin4WZVORy41xvFd5dAmjAWyvxhfa0npTW6z5HcIbaKARP3IdkqoCToutgnQA7qbma9nu0HTfnV1Ihjm8UNAnghYA\",
+    \"post_logout_redirect_uri\": \"#/login\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-10-22 11:00:05.236 -05:00 [Information] Redirecting to logout page
+iisexpress.exe Information: 0 : 2015-10-22 11:00:05.257 -05:00 [Information] Logout prompt for subject: "1"
+iisexpress.exe Information: 0 : 2015-10-22 11:00:05.257 -05:00 [Information] EnableSignOutPrompt set to true, rendering logout prompt
+iisexpress.exe Information: 0 : 2015-10-22 11:00:06.711 -05:00 [Information] Logout endpoint submitted
+iisexpress.exe Information: 0 : 2015-10-22 11:00:06.712 -05:00 [Information] Logout requested for subject: "1"
+iisexpress.exe Information: 0 : 2015-10-22 11:00:06.712 -05:00 [Information] Clearing cookies
+iisexpress.exe Information: 0 : 2015-10-22 11:00:06.716 -05:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Logout Event",
+  "EventType": "Information",
+  "Id": 1030,
+  "Details": {
+    "SubjectId": "1",
+    "Name": "s"
+  },
+  "Context": {
+    "ActivityId": "80000014-0000-f100-b63f-84710c7967bb",
+    "TimeStamp": "2015-10-22T16:00:06.7131243+00:00",
+    "ProcessId": 6860,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-10-22 11:00:06.717 -05:00 [Information] rendering logged out page
+iisexpress.exe Information: 0 : 2015-10-22 11:00:06.858 -05:00 [Information] End session callback requested
+iisexpress.exe Information: 0 : 2015-10-22 11:16:49.926 -05:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-10-22 11:16:49.926 -05:00 [Information] Start authorize request protocol validation
+iisexpress.exe Error: 0 : 2015-10-22 11:16:49.927 -05:00 [Error] "Invalid flow for client: Implicit"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:9000\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"\",
+  \"State\": \"3909725443971887\",
+  \"Raw\": {
+    \"state\": \"3909725443971887\",
+    \"nonce\": \"11643568207127817\",
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-10-22 11:16:49.927 -05:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint failure",
+  "EventType": "Failure",
+  "Id": 3001,
+  "Message": "unauthorized_client",
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "80000024-0001-f100-b63f-84710c7967bb",
+    "TimeStamp": "2015-10-22T16:16:49.9279939+00:00",
+    "ProcessId": 6860,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-10-22 11:16:49.927 -05:00 [Information] End authorize request
+iisexpress.exe Warning: 0 : 2015-10-22 11:44:07.453 -05:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-10-22 11:44:07.467 -05:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-10-22 11:44:07.467 -05:00 [Warning] ConsentStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-10-22 11:44:07.467 -05:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+iisexpress.exe Information: 0 : 2015-10-22 11:44:07.822 -05:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-20T16:00:00-06:00"
+  },
+  "Context": {
+    "TimeStamp": "2015-10-22T16:44:07.7338684+00:00",
+    "ProcessId": 2412,
+    "MachineName": "L30005"
+  }
+}
+iisexpress.exe Information: 0 : 2015-10-22 11:44:08.034 -05:00 [Information] Welcome page requested - rendering
+iisexpress.exe Information: 0 : 2015-10-22 11:44:13.520 -05:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-10-22 11:44:13.546 -05:00 [Information] Start key discovery request
+iisexpress.exe Information: 0 : 2015-10-22 11:44:13.619 -05:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-10-22 11:44:13.624 -05:00 [Information] Start authorize request protocol validation
+iisexpress.exe Error: 0 : 2015-10-22 11:44:13.637 -05:00 [Error] "Invalid redirect_uri: https://localhost:44300/"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"https://localhost:44300/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:9000\",
+    \"http://localhost:21575\",
+    \"http://localhost:9000\",
+    \"http://localhost:44300\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"Flow\": \"AuthorizationCode\",
+  \"RequestedScopes\": \"\",
+  \"Raw\": {
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"https://localhost:44300/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"code id_token token\",
+    \"scope\": \"openid profile roles apiAccess\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=w6-AJlJy86hXA2ZOfxb8BeFeORySnIl9Mu8d04jyofk1vqJ_JvO6YwxtYfCgG7kGKYoCuDOdh-5Ps2RQ7bC2rDwCUjFcGXQI23v5_o472IAgYm-cQn_Y0Z7j7J6hwv_bbMT02p62W5TWg6ZEpuUd2YZYwKpfwLidMmOix8e5Sl_HNE8XGb2aAa3yOqD1Ki_u8gpC8a271SYDoX8Qyrn3oMxRqpkkEGxNmDnl509m-Pc\",
+    \"nonce\": \"635811290535697284.MzBiMTcwMTgtYmU0ZS00MjI5LTg3Y2EtMDgzYzViNmVkMjFmZTFmNDA0YjItNTZkZi00MmY2LTkwNWEtZDRkYzJiZGNkMGUw\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-10-22 11:44:13.643 -05:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint failure",
+  "EventType": "Failure",
+  "Id": 3001,
+  "Message": "unauthorized_client",
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "80000472-0001-fb00-b63f-84710c7967bb",
+    "TimeStamp": "2015-10-22T16:44:13.6425879+00:00",
+    "ProcessId": 2412,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-10-22 11:44:13.645 -05:00 [Information] End authorize request
+iisexpress.exe Warning: 0 : 2015-10-22 14:54:57.577 -05:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-10-22 14:54:57.600 -05:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-10-22 14:54:57.600 -05:00 [Warning] ConsentStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-10-22 14:54:57.600 -05:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+iisexpress.exe Information: 0 : 2015-10-22 14:54:57.958 -05:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-20T16:00:00-06:00"
+  },
+  "Context": {
+    "TimeStamp": "2015-10-22T19:54:57.871581+00:00",
+    "ProcessId": 4204,
+    "MachineName": "L30005"
+  }
+}
+iisexpress.exe Warning: 0 : 2015-11-16 10:03:14.952 -06:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-16 10:03:14.967 -06:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-16 10:03:14.967 -06:00 [Warning] ConsentStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-16 10:03:14.967 -06:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+iisexpress.exe Information: 0 : 2015-11-16 10:03:15.365 -06:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-20T16:00:00-06:00"
+  },
+  "Context": {
+    "TimeStamp": "2015-11-16T16:03:15.2357129+00:00",
+    "ProcessId": 3924,
+    "MachineName": "L30005"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:03:15.686 -06:00 [Information] Welcome page requested - rendering
+iisexpress.exe Warning: 0 : 2015-11-16 10:05:15.333 -06:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-16 10:05:15.348 -06:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-16 10:05:15.348 -06:00 [Warning] ConsentStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-16 10:05:15.348 -06:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+iisexpress.exe Information: 0 : 2015-11-16 10:05:15.813 -06:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-20T16:00:00-06:00"
+  },
+  "Context": {
+    "TimeStamp": "2015-11-16T16:05:15.6398413+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:05:16.079 -06:00 [Information] Welcome page requested - rendering
+iisexpress.exe Information: 0 : 2015-11-16 10:05:26.150 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:05:26.156 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:05:26.156 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:05:26.167 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:05:35.811 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:05:35.818 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-11-16 10:05:35.850 -06:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44300/\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid\",
+  \"State\": \"5318372855419313\",
+  \"Nonce\": \"8670308811384902\",
+  \"Raw\": {
+    \"state\": \"5318372855419313\",
+    \"nonce\": \"8670308811384902\",
+    \"client_id\": \"implicitClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:05:35.854 -06:00 [Information] User is not authenticated. Redirecting to login.
+iisexpress.exe Information: 0 : 2015-11-16 10:05:35.861 -06:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:05:35.862 -06:00 [Information] Redirecting to login page
+2015-11-16 10:05:35.870 -06:00 [Debug] Protecting message: "{\"ReturnUrl\":\"https://localhost:44301/core/connect/authorize?state=5318372855419313&nonce=8670308811384902&client_id=implicitClient&redirect_uri=http%3A%2F%2Flocalhost%3A21575&response_type=id_token&scope=openid\",\"ClientId\":\"implicitClient\",\"AcrValues\":[],\"Created\":635832867357742824}"
+iisexpress.exe Information: 0 : 2015-11-16 10:05:35.917 -06:00 [Information] Login page requested
+2015-11-16 10:05:35.949 -06:00 [Debug] signin message passed to login: "{
+  \"ReturnUrl\": \"https://localhost:44301/core/connect/authorize?state=5318372855419313&nonce=8670308811384902&client_id=implicitClient&redirect_uri=http%3A%2F%2Flocalhost%3A21575&response_type=id_token&scope=openid\",
+  \"ClientId\": \"implicitClient\",
+  \"IdP\": null,
+  \"Tenant\": null,
+  \"LoginHint\": null,
+  \"DisplayMode\": null,
+  \"UiLocales\": null,
+  \"AcrValues\": [],
+  \"Created\": 635832867357742824
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:05:35.957 -06:00 [Information] rendering login page
+iisexpress.exe Information: 0 : 2015-11-16 10:05:39.890 -06:00 [Information] Login page submitted
+iisexpress.exe Information: 0 : 2015-11-16 10:05:39.894 -06:00 [Information] Login credentials successfully validated by user service
+iisexpress.exe Information: 0 : 2015-11-16 10:05:39.901 -06:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Local Login Success",
+  "EventType": "Success",
+  "Id": 1010,
+  "Details": {
+    "LoginUserName": "s",
+    "SignInId": "f5b565169a643a9cf783b21d999f2df2",
+    "SignInMessage": {
+      "ReturnUrl": "https://localhost:44301/core/connect/authorize?state=5318372855419313&nonce=8670308811384902&client_id=implicitClient&redirect_uri=http%3A%2F%2Flocalhost%3A21575&response_type=id_token&scope=openid",
+      "ClientId": "implicitClient",
+      "AcrValues": [],
+      "Created": 635832867357742824
+    },
+    "PartialLogin": false,
+    "SubjectId": "1",
+    "Name": "s"
+  },
+  "Context": {
+    "ActivityId": "80000002-0001-ed00-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:05:39.8983141+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:05:39.904 -06:00 [Information] Calling PostAuthenticateAsync on the user service
+iisexpress.exe Information: 0 : 2015-11-16 10:05:39.910 -06:00 [Information] issuing primary signin cookie
+iisexpress.exe Information: 0 : 2015-11-16 10:05:39.915 -06:00 [Information] redirecting to: https://localhost:44301/core/connect/authorize?state=5318372855419313&nonce=8670308811384902&client_id=implicitClient&redirect_uri=http:%2F%2Flocalhost:21575&response_type=id_token&scope=openid
+iisexpress.exe Information: 0 : 2015-11-16 10:05:39.944 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:05:39.945 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-11-16 10:05:39.945 -06:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44300/\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"1\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid\",
+  \"State\": \"5318372855419313\",
+  \"Nonce\": \"8670308811384902\",
+  \"SessionId\": \"bb1c5ce60908acdfaaf965318363a473\",
+  \"Raw\": {
+    \"state\": \"5318372855419313\",
+    \"nonce\": \"8670308811384902\",
+    \"client_id\": \"implicitClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:05:39.950 -06:00 [Information] Showing consent screen
+iisexpress.exe Information: 0 : 2015-11-16 10:05:39.954 -06:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.868 -06:00 [Information] Resuming from consent, restarting validation
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.868 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.869 -06:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44300/\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"1\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid\",
+  \"State\": \"5318372855419313\",
+  \"Nonce\": \"8670308811384902\",
+  \"SessionId\": \"bb1c5ce60908acdfaaf965318363a473\",
+  \"Raw\": {
+    \"state\": \"5318372855419313\",
+    \"nonce\": \"8670308811384902\",
+    \"client_id\": \"implicitClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.882 -06:00 [Information] Creating Implicit Flow response.
+2015-11-16 10:05:47.886 -06:00 [Debug] Creating identity token
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.889 -06:00 [Information] Getting claims for identity token for subject: 1
+2015-11-16 10:05:47.893 -06:00 [Debug] Creating JWT identity token
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.929 -06:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Identity token issued",
+  "EventType": "Information",
+  "Id": 2001,
+  "Details": {
+    "SubjectId": "1",
+    "ClientId": "implicitClient",
+    "Lifetime": 300,
+    "Claims": {
+      "nonce": "8670308811384902",
+      "iat": 1447689947,
+      "sub": "1",
+      "amr": "password",
+      "auth_time": 1447689939,
+      "idp": "idsrv",
+      "given_name": "Scott",
+      "family_name": "Sloan",
+      "email": "scottsloan@gmail.com",
+      "role": [
+        "Geek",
+        "Foo"
+      ]
+    }
+  },
+  "Context": {
+    "ActivityId": "8000001e-0000-f500-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:05:47.9238268+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.933 -06:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint success",
+  "EventType": "Success",
+  "Id": 3000,
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "8000001e-0000-f500-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:05:47.9327385+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.935 -06:00 [Information] Redirecting to: http://localhost:21575
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.976 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.976 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.977 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.977 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.994 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.994 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.994 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:05:47.994 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:05:48.019 -06:00 [Information] CORS request made for path: "/.well-known/jwks" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:05:48.019 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:05:48.019 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:05:48.021 -06:00 [Information] Start key discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:05:48.148 -06:00 [Information] Check session iframe request
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.682 -06:00 [Information] Start end session request
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.685 -06:00 [Information] Start end session request validation
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.690 -06:00 [Information] Start identity token validation
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.731 -06:00 [Information] "Token validation success"
+"{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"ValidateLifetime\": false,
+  \"Claims\": {
+    \"nonce\": \"8670308811384902\",
+    \"iat\": \"1447689947\",
+    \"sub\": \"1\",
+    \"amr\": \"password\",
+    \"auth_time\": \"1447689939\",
+    \"idp\": \"idsrv\",
+    \"given_name\": \"Scott\",
+    \"family_name\": \"Sloan\",
+    \"email\": \"scottsloan@gmail.com\",
+    \"role\": [
+      \"Geek\",
+      \"Foo\"
+    ],
+    \"iss\": \"https://localhost:44301/core\",
+    \"aud\": \"implicitClient\",
+    \"exp\": \"1447690247\",
+    \"nbf\": \"1447689947\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.733 -06:00 [Information] "End session request validation success"
+"{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"SubjectId\": \"1\",
+  \"PostLogOutUri\": \"http://localhost:21575\",
+  \"Raw\": {
+    \"post_logout_redirect_uri\": \"http://localhost:21575\",
+    \"id_token_hint\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSIsImtpZCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSJ9.eyJub25jZSI6Ijg2NzAzMDg4MTEzODQ5MDIiLCJpYXQiOjE0NDc2ODk5NDcsInN1YiI6IjEiLCJhbXIiOlsicGFzc3dvcmQiXSwiYXV0aF90aW1lIjoxNDQ3Njg5OTM5LCJpZHAiOiJpZHNydiIsImdpdmVuX25hbWUiOiJTY290dCIsImZhbWlseV9uYW1lIjoiU2xvYW4iLCJlbWFpbCI6InNjb3R0c2xvYW5AZ21haWwuY29tIiwicm9sZSI6WyJHZWVrIiwiRm9vIl0sImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzAxL2NvcmUiLCJhdWQiOiJpbXBsaWNpdENsaWVudCIsImV4cCI6MTQ0NzY5MDI0NywibmJmIjoxNDQ3Njg5OTQ3fQ.fy_FkL_TkVzplco9xdrM1T9p_PHEz3LePVmELQfYQPgz5gpWAVsGdFr4CnZyTtY0OfuQnpNl3rGlEh_4c7RC_zQxxpFnEmMG-EN6BpfBtuybxxttjB1jV8z27d7VKKkVuBOJlRo75alTravDrrlFeuLARcnC7r09t632d6nBhnVTDoNc19E-AkexoA1CeOKws5YbNv1oBh2dIZeU5-DAZsEle3JZrF3G0mhDVJhySGe_yP5vQw2CgqeTYq-2NiNEldkUabLF79cBzlLOI5ltxkr1e7pW4FGabB-8NkueG0ZXogP_nBpCj42ymcKPymr0OZqd2qGwt4qioAPDO6z7LA\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.733 -06:00 [Information] End end session request
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.733 -06:00 [Information] Redirecting to logout page
+2015-11-16 10:05:53.736 -06:00 [Debug] Protecting message: "{\"ClientId\":\"implicitClient\",\"ReturnUrl\":\"http://localhost:21575\",\"Created\":635832867537330398}"
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.747 -06:00 [Information] Logout prompt for subject: "1"
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.747 -06:00 [Information] SignOutMessage present (from client "implicitClient"), performing logout
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.749 -06:00 [Information] Logout endpoint submitted
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.749 -06:00 [Information] Logout requested for subject: "1"
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.749 -06:00 [Information] Clearing cookies
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.754 -06:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Logout Event",
+  "EventType": "Information",
+  "Id": 1030,
+  "Details": {
+    "SignOutId": "c80b8b75b11fb403c09da1fa840063ac",
+    "SignOutMessage": {
+      "ClientId": "implicitClient",
+      "ReturnUrl": "http://localhost:21575",
+      "Created": 635832867537330398
+    },
+    "SubjectId": "1",
+    "Name": "s"
+  },
+  "Context": {
+    "ActivityId": "80000008-0001-ed00-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:05:53.7510352+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.755 -06:00 [Information] rendering logged out page
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.916 -06:00 [Information] End session callback requested
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.974 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.974 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.974 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:05:53.977 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:06:19.721 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:06:19.725 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:06:19.725 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:06:19.727 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:06:23.151 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:06:23.151 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:06:23.151 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:06:23.152 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:06:38.948 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:06:38.948 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-11-16 10:06:38.949 -06:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44300/\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid\",
+  \"State\": \"12981116507445898\",
+  \"Nonce\": \"5905976114097024\",
+  \"Raw\": {
+    \"state\": \"12981116507445898\",
+    \"nonce\": \"5905976114097024\",
+    \"client_id\": \"implicitClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:06:38.949 -06:00 [Information] User is not authenticated. Redirecting to login.
+iisexpress.exe Information: 0 : 2015-11-16 10:06:38.949 -06:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:06:38.949 -06:00 [Information] Redirecting to login page
+2015-11-16 10:06:38.949 -06:00 [Debug] Protecting message: "{\"ReturnUrl\":\"https://localhost:44301/core/connect/authorize?state=12981116507445898&nonce=5905976114097024&client_id=implicitClient&redirect_uri=http%3A%2F%2Flocalhost%3A21575&response_type=id_token&scope=openid\",\"ClientId\":\"implicitClient\",\"AcrValues\":[],\"Created\":635832867989474836}"
+iisexpress.exe Information: 0 : 2015-11-16 10:06:38.969 -06:00 [Information] Login page requested
+2015-11-16 10:06:38.970 -06:00 [Debug] signin message passed to login: "{
+  \"ReturnUrl\": \"https://localhost:44301/core/connect/authorize?state=12981116507445898&nonce=5905976114097024&client_id=implicitClient&redirect_uri=http%3A%2F%2Flocalhost%3A21575&response_type=id_token&scope=openid\",
+  \"ClientId\": \"implicitClient\",
+  \"IdP\": null,
+  \"Tenant\": null,
+  \"LoginHint\": null,
+  \"DisplayMode\": null,
+  \"UiLocales\": null,
+  \"AcrValues\": [],
+  \"Created\": 635832867989474836
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:06:38.970 -06:00 [Information] rendering login page
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.347 -06:00 [Information] Login page submitted
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.348 -06:00 [Information] Login credentials successfully validated by user service
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.348 -06:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Local Login Success",
+  "EventType": "Success",
+  "Id": 1010,
+  "Details": {
+    "LoginUserName": "s",
+    "SignInId": "037eb9719a54106cb763ddcf5bd48171",
+    "SignInMessage": {
+      "ReturnUrl": "https://localhost:44301/core/connect/authorize?state=12981116507445898&nonce=5905976114097024&client_id=implicitClient&redirect_uri=http%3A%2F%2Flocalhost%3A21575&response_type=id_token&scope=openid",
+      "ClientId": "implicitClient",
+      "AcrValues": [],
+      "Created": 635832867989474836
+    },
+    "PartialLogin": false,
+    "SubjectId": "1",
+    "Name": "s"
+  },
+  "Context": {
+    "ActivityId": "8000000a-0001-f800-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:06:45.3486402+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.348 -06:00 [Information] Calling PostAuthenticateAsync on the user service
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.348 -06:00 [Information] issuing primary signin cookie
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.348 -06:00 [Information] redirecting to: https://localhost:44301/core/connect/authorize?state=12981116507445898&nonce=5905976114097024&client_id=implicitClient&redirect_uri=http:%2F%2Flocalhost:21575&response_type=id_token&scope=openid
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.357 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.357 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.357 -06:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44300/\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"1\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid\",
+  \"State\": \"12981116507445898\",
+  \"Nonce\": \"5905976114097024\",
+  \"SessionId\": \"ceb370ba1ec6eec50e718f1757cc77db\",
+  \"Raw\": {
+    \"state\": \"12981116507445898\",
+    \"nonce\": \"5905976114097024\",
+    \"client_id\": \"implicitClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.357 -06:00 [Information] Creating Implicit Flow response.
+2015-11-16 10:06:45.358 -06:00 [Debug] Creating identity token
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.358 -06:00 [Information] Getting claims for identity token for subject: 1
+2015-11-16 10:06:45.358 -06:00 [Debug] Creating JWT identity token
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.367 -06:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Identity token issued",
+  "EventType": "Information",
+  "Id": 2001,
+  "Details": {
+    "SubjectId": "1",
+    "ClientId": "implicitClient",
+    "Lifetime": 300,
+    "Claims": {
+      "nonce": "5905976114097024",
+      "iat": 1447690005,
+      "sub": "1",
+      "amr": "password",
+      "auth_time": 1447690005,
+      "idp": "idsrv",
+      "given_name": "Scott",
+      "family_name": "Sloan",
+      "email": "scottsloan@gmail.com",
+      "role": [
+        "Geek",
+        "Foo"
+      ]
+    }
+  },
+  "Context": {
+    "ActivityId": "8000000f-0003-f200-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:06:45.367801+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.367 -06:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint success",
+  "EventType": "Success",
+  "Id": 3000,
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "8000000f-0003-f200-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:06:45.367801+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.367 -06:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.367 -06:00 [Information] Redirecting to: http://localhost:21575
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.412 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.412 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.412 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.413 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.458 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.458 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.458 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.460 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.475 -06:00 [Information] CORS request made for path: "/.well-known/jwks" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.475 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.475 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.476 -06:00 [Information] Start key discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:06:45.551 -06:00 [Information] Check session iframe request
+iisexpress.exe Information: 0 : 2015-11-16 10:07:35.770 -06:00 [Information] Start end session request
+iisexpress.exe Information: 0 : 2015-11-16 10:07:35.770 -06:00 [Information] Start end session request validation
+iisexpress.exe Information: 0 : 2015-11-16 10:07:35.770 -06:00 [Information] Start identity token validation
+iisexpress.exe Information: 0 : 2015-11-16 10:07:35.772 -06:00 [Information] "Token validation success"
+"{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"ValidateLifetime\": false,
+  \"Claims\": {
+    \"nonce\": \"5905976114097024\",
+    \"iat\": \"1447690005\",
+    \"sub\": \"1\",
+    \"amr\": \"password\",
+    \"auth_time\": \"1447690005\",
+    \"idp\": \"idsrv\",
+    \"given_name\": \"Scott\",
+    \"family_name\": \"Sloan\",
+    \"email\": \"scottsloan@gmail.com\",
+    \"role\": [
+      \"Geek\",
+      \"Foo\"
+    ],
+    \"iss\": \"https://localhost:44301/core\",
+    \"aud\": \"implicitClient\",
+    \"exp\": \"1447690305\",
+    \"nbf\": \"1447690005\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:07:35.773 -06:00 [Information] "End session request validation success"
+"{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"SubjectId\": \"1\",
+  \"PostLogOutUri\": \"http://localhost:21575\",
+  \"Raw\": {
+    \"post_logout_redirect_uri\": \"http://localhost:21575\",
+    \"id_token_hint\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSIsImtpZCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSJ9.eyJub25jZSI6IjU5MDU5NzYxMTQwOTcwMjQiLCJpYXQiOjE0NDc2OTAwMDUsInN1YiI6IjEiLCJhbXIiOlsicGFzc3dvcmQiXSwiYXV0aF90aW1lIjoxNDQ3NjkwMDA1LCJpZHAiOiJpZHNydiIsImdpdmVuX25hbWUiOiJTY290dCIsImZhbWlseV9uYW1lIjoiU2xvYW4iLCJlbWFpbCI6InNjb3R0c2xvYW5AZ21haWwuY29tIiwicm9sZSI6WyJHZWVrIiwiRm9vIl0sImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzAxL2NvcmUiLCJhdWQiOiJpbXBsaWNpdENsaWVudCIsImV4cCI6MTQ0NzY5MDMwNSwibmJmIjoxNDQ3NjkwMDA1fQ.cFJAArguQYr0RAkFpfFeF3mvabxKnjGU-Tc3dXr_TDQwgE-u6wbTjBnqFkn6hTwB0LT-PjoRuHN8UtGbhrEkNVRPm9jctclVemyOCk8xElcmuPvbCfHB4PMwFtUSquOa57ylOwp-pGyRaJy2cXhcv9MOBEKeMuBeMYgyPM_kv3qcNwCciG63kHgBHjvIu_K58-CkQDqM0GgzT1Diol8aP-FdetCMzBRQHtFTjb5Pq4Cz4DjedQYWIDlLHsvHm9vRN2pG6b_jOk7-1K_72PqzChILdGMCG9uFnDKE5LNkqdmM8oXY-WsU6igX6GHam97dGL-OlqEgcZXkistmzk6fZA\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:07:35.774 -06:00 [Information] End end session request
+iisexpress.exe Information: 0 : 2015-11-16 10:07:35.774 -06:00 [Information] Redirecting to logout page
+2015-11-16 10:07:35.775 -06:00 [Debug] Protecting message: "{\"ClientId\":\"implicitClient\",\"ReturnUrl\":\"http://localhost:21575\",\"Created\":635832868557746614}"
+iisexpress.exe Information: 0 : 2015-11-16 10:07:35.787 -06:00 [Information] Logout prompt for subject: "1"
+iisexpress.exe Information: 0 : 2015-11-16 10:07:35.788 -06:00 [Information] SignOutMessage present (from client "implicitClient"), performing logout
+iisexpress.exe Information: 0 : 2015-11-16 10:07:35.788 -06:00 [Information] Logout endpoint submitted
+iisexpress.exe Information: 0 : 2015-11-16 10:07:35.789 -06:00 [Information] Logout requested for subject: "1"
+iisexpress.exe Information: 0 : 2015-11-16 10:07:35.789 -06:00 [Information] Clearing cookies
+iisexpress.exe Information: 0 : 2015-11-16 10:07:35.791 -06:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Logout Event",
+  "EventType": "Information",
+  "Id": 1030,
+  "Details": {
+    "SignOutId": "9805b0f4464febfcc23f7074f1dab0e5",
+    "SignOutMessage": {
+      "ClientId": "implicitClient",
+      "ReturnUrl": "http://localhost:21575",
+      "Created": 635832868557746614
+    },
+    "SubjectId": "1",
+    "Name": "s"
+  },
+  "Context": {
+    "ActivityId": "80000006-0003-eb00-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:07:35.7906893+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:07:35.791 -06:00 [Information] rendering logged out page
+iisexpress.exe Information: 0 : 2015-11-16 10:07:35.974 -06:00 [Information] End session callback requested
+iisexpress.exe Information: 0 : 2015-11-16 10:07:36.018 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:07:36.019 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:07:36.019 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:07:36.019 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:07:40.252 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:07:40.252 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-11-16 10:07:40.252 -06:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44300/\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid\",
+  \"State\": \"1396085641031957\",
+  \"Nonce\": \"12823063389873533\",
+  \"Raw\": {
+    \"state\": \"1396085641031957\",
+    \"nonce\": \"12823063389873533\",
+    \"client_id\": \"implicitClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:07:40.253 -06:00 [Information] User is not authenticated. Redirecting to login.
+iisexpress.exe Information: 0 : 2015-11-16 10:07:40.253 -06:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:07:40.253 -06:00 [Information] Redirecting to login page
+2015-11-16 10:07:40.253 -06:00 [Debug] Protecting message: "{\"ReturnUrl\":\"https://localhost:44301/core/connect/authorize?state=1396085641031957&nonce=12823063389873533&client_id=implicitClient&redirect_uri=http%3A%2F%2Flocalhost%3A21575&response_type=id_token&scope=openid\",\"ClientId\":\"implicitClient\",\"AcrValues\":[],\"Created\":635832868602529096}"
+iisexpress.exe Information: 0 : 2015-11-16 10:07:40.261 -06:00 [Information] Login page requested
+2015-11-16 10:07:40.263 -06:00 [Debug] signin message passed to login: "{
+  \"ReturnUrl\": \"https://localhost:44301/core/connect/authorize?state=1396085641031957&nonce=12823063389873533&client_id=implicitClient&redirect_uri=http%3A%2F%2Flocalhost%3A21575&response_type=id_token&scope=openid\",
+  \"ClientId\": \"implicitClient\",
+  \"IdP\": null,
+  \"Tenant\": null,
+  \"LoginHint\": null,
+  \"DisplayMode\": null,
+  \"UiLocales\": null,
+  \"AcrValues\": [],
+  \"Created\": 635832868602529096
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:07:40.263 -06:00 [Information] rendering login page
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.528 -06:00 [Information] Login page submitted
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.529 -06:00 [Information] Login credentials successfully validated by user service
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.530 -06:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Local Login Success",
+  "EventType": "Success",
+  "Id": 1010,
+  "Details": {
+    "LoginUserName": "s",
+    "SignInId": "d6950d26743816d5397c45735e0d6ef7",
+    "SignInMessage": {
+      "ReturnUrl": "https://localhost:44301/core/connect/authorize?state=1396085641031957&nonce=12823063389873533&client_id=implicitClient&redirect_uri=http%3A%2F%2Flocalhost%3A21575&response_type=id_token&scope=openid",
+      "ClientId": "implicitClient",
+      "AcrValues": [],
+      "Created": 635832868602529096
+    },
+    "PartialLogin": false,
+    "SubjectId": "1",
+    "Name": "s"
+  },
+  "Context": {
+    "ActivityId": "8000000d-0000-fa00-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:07:44.5294438+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.530 -06:00 [Information] Calling PostAuthenticateAsync on the user service
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.530 -06:00 [Information] issuing primary signin cookie
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.530 -06:00 [Information] redirecting to: https://localhost:44301/core/connect/authorize?state=1396085641031957&nonce=12823063389873533&client_id=implicitClient&redirect_uri=http:%2F%2Flocalhost:21575&response_type=id_token&scope=openid
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.541 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.541 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.542 -06:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44300/\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"1\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid\",
+  \"State\": \"1396085641031957\",
+  \"Nonce\": \"12823063389873533\",
+  \"SessionId\": \"52e60ad1513a8170033d49bf59cd10e4\",
+  \"Raw\": {
+    \"state\": \"1396085641031957\",
+    \"nonce\": \"12823063389873533\",
+    \"client_id\": \"implicitClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.542 -06:00 [Information] Creating Implicit Flow response.
+2015-11-16 10:07:44.542 -06:00 [Debug] Creating identity token
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.542 -06:00 [Information] Getting claims for identity token for subject: 1
+2015-11-16 10:07:44.542 -06:00 [Debug] Creating JWT identity token
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.553 -06:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Identity token issued",
+  "EventType": "Information",
+  "Id": 2001,
+  "Details": {
+    "SubjectId": "1",
+    "ClientId": "implicitClient",
+    "Lifetime": 300,
+    "Claims": {
+      "nonce": "12823063389873533",
+      "iat": 1447690064,
+      "sub": "1",
+      "amr": "password",
+      "auth_time": 1447690064,
+      "idp": "idsrv",
+      "given_name": "Scott",
+      "family_name": "Sloan",
+      "email": "scottsloan@gmail.com",
+      "role": [
+        "Geek",
+        "Foo"
+      ]
+    }
+  },
+  "Context": {
+    "ActivityId": "8000000f-0000-fa00-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:07:44.5536583+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.553 -06:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint success",
+  "EventType": "Success",
+  "Id": 3000,
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "8000000f-0000-fa00-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:07:44.5536583+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.553 -06:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.554 -06:00 [Information] Redirecting to: http://localhost:21575
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.602 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.602 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.602 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.602 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.623 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.623 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.623 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.627 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.645 -06:00 [Information] CORS request made for path: "/.well-known/jwks" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.645 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.645 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.645 -06:00 [Information] Start key discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:07:44.693 -06:00 [Information] Check session iframe request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.073 -06:00 [Information] Start end session request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.073 -06:00 [Information] Start end session request validation
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.073 -06:00 [Information] Start identity token validation
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.074 -06:00 [Information] "Token validation success"
+"{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"ValidateLifetime\": false,
+  \"Claims\": {
+    \"nonce\": \"12823063389873533\",
+    \"iat\": \"1447690064\",
+    \"sub\": \"1\",
+    \"amr\": \"password\",
+    \"auth_time\": \"1447690064\",
+    \"idp\": \"idsrv\",
+    \"given_name\": \"Scott\",
+    \"family_name\": \"Sloan\",
+    \"email\": \"scottsloan@gmail.com\",
+    \"role\": [
+      \"Geek\",
+      \"Foo\"
+    ],
+    \"iss\": \"https://localhost:44301/core\",
+    \"aud\": \"implicitClient\",
+    \"exp\": \"1447690364\",
+    \"nbf\": \"1447690064\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.074 -06:00 [Information] "End session request validation success"
+"{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"SubjectId\": \"1\",
+  \"PostLogOutUri\": \"http://localhost:21575\",
+  \"Raw\": {
+    \"post_logout_redirect_uri\": \"http://localhost:21575\",
+    \"id_token_hint\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSIsImtpZCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSJ9.eyJub25jZSI6IjEyODIzMDYzMzg5ODczNTMzIiwiaWF0IjoxNDQ3NjkwMDY0LCJzdWIiOiIxIiwiYW1yIjpbInBhc3N3b3JkIl0sImF1dGhfdGltZSI6MTQ0NzY5MDA2NCwiaWRwIjoiaWRzcnYiLCJnaXZlbl9uYW1lIjoiU2NvdHQiLCJmYW1pbHlfbmFtZSI6IlNsb2FuIiwiZW1haWwiOiJzY290dHNsb2FuQGdtYWlsLmNvbSIsInJvbGUiOlsiR2VlayIsIkZvbyJdLCJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo0NDMwMS9jb3JlIiwiYXVkIjoiaW1wbGljaXRDbGllbnQiLCJleHAiOjE0NDc2OTAzNjQsIm5iZiI6MTQ0NzY5MDA2NH0.OcBXp90I40oGUhqKOitTjYymZQfg5kidGfCjSnm_acWf66r4QS1V95Iu7VO-tIzMNBjLRhv_DRZesppCK2Axgy6uYtDER7MxK0jCXiuZhad0ai6SSM4Kqho66ZqqINmV4aKp4rrv9DjPoTg3c-9LHtRMRzJt7Sl01CWx9D0NkP6z-vIlSyuJBpmmbLKk1Ce-BidC97hkIV--CQdFmoAh4bGpSg3KWUYZUfIkrJRCF6f1oZLsFzf-xutf3KaMtlMfHuUWqf7w2IeW1D5hgWdJNX45wir5D4VTX87itXB_I_4SL4HI1N3EPL3rOacxSfAbP1zsmum4U3Bh2zFnWd6n6A\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.075 -06:00 [Information] End end session request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.075 -06:00 [Information] Redirecting to logout page
+2015-11-16 10:08:11.075 -06:00 [Debug] Protecting message: "{\"ClientId\":\"implicitClient\",\"ReturnUrl\":\"http://localhost:21575\",\"Created\":635832868910743468}"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.084 -06:00 [Information] Logout prompt for subject: "1"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.085 -06:00 [Information] SignOutMessage present (from client "implicitClient"), performing logout
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.085 -06:00 [Information] Logout endpoint submitted
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.085 -06:00 [Information] Logout requested for subject: "1"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.085 -06:00 [Information] Clearing cookies
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.086 -06:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Logout Event",
+  "EventType": "Information",
+  "Id": 1030,
+  "Details": {
+    "SignOutId": "741416491e8289a730ae30606a28d838",
+    "SignOutMessage": {
+      "ClientId": "implicitClient",
+      "ReturnUrl": "http://localhost:21575",
+      "Created": 635832868910743468
+    },
+    "SubjectId": "1",
+    "Name": "s"
+  },
+  "Context": {
+    "ActivityId": "8000000b-0001-f600-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:08:11.0863429+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.086 -06:00 [Information] rendering logged out page
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.259 -06:00 [Information] End session callback requested
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.328 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.328 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.328 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:08:11.328 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:17.494 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:17.494 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-11-16 10:08:17.494 -06:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44300/\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid\",
+  \"State\": \"927711463578079\",
+  \"Nonce\": \"859059496832706\",
+  \"Raw\": {
+    \"state\": \"927711463578079\",
+    \"nonce\": \"859059496832706\",
+    \"client_id\": \"implicitClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:17.494 -06:00 [Information] User is not authenticated. Redirecting to login.
+iisexpress.exe Information: 0 : 2015-11-16 10:08:17.494 -06:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:17.494 -06:00 [Information] Redirecting to login page
+2015-11-16 10:08:17.494 -06:00 [Debug] Protecting message: "{\"ReturnUrl\":\"https://localhost:44301/core/connect/authorize?state=927711463578079&nonce=859059496832706&client_id=implicitClient&redirect_uri=http%3A%2F%2Flocalhost%3A21575&response_type=id_token&scope=openid\",\"ClientId\":\"implicitClient\",\"AcrValues\":[],\"Created\":635832868974945412}"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:17.504 -06:00 [Information] Login page requested
+2015-11-16 10:08:17.504 -06:00 [Debug] signin message passed to login: "{
+  \"ReturnUrl\": \"https://localhost:44301/core/connect/authorize?state=927711463578079&nonce=859059496832706&client_id=implicitClient&redirect_uri=http%3A%2F%2Flocalhost%3A21575&response_type=id_token&scope=openid\",
+  \"ClientId\": \"implicitClient\",
+  \"IdP\": null,
+  \"Tenant\": null,
+  \"LoginHint\": null,
+  \"DisplayMode\": null,
+  \"UiLocales\": null,
+  \"AcrValues\": [],
+  \"Created\": 635832868974945412
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:17.504 -06:00 [Information] rendering login page
+iisexpress.exe Information: 0 : 2015-11-16 10:08:21.999 -06:00 [Information] Login page submitted
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.000 -06:00 [Information] Login credentials successfully validated by user service
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.000 -06:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Local Login Success",
+  "EventType": "Success",
+  "Id": 1010,
+  "Details": {
+    "LoginUserName": "s",
+    "SignInId": "442e3c3b49067c2ff59af238ad27c523",
+    "SignInMessage": {
+      "ReturnUrl": "https://localhost:44301/core/connect/authorize?state=927711463578079&nonce=859059496832706&client_id=implicitClient&redirect_uri=http%3A%2F%2Flocalhost%3A21575&response_type=id_token&scope=openid",
+      "ClientId": "implicitClient",
+      "AcrValues": [],
+      "Created": 635832868974945412
+    },
+    "PartialLogin": false,
+    "SubjectId": "1",
+    "Name": "s"
+  },
+  "Context": {
+    "ActivityId": "80000013-0001-f600-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:08:22.0006358+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.000 -06:00 [Information] Calling PostAuthenticateAsync on the user service
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.000 -06:00 [Information] issuing primary signin cookie
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.000 -06:00 [Information] redirecting to: https://localhost:44301/core/connect/authorize?state=927711463578079&nonce=859059496832706&client_id=implicitClient&redirect_uri=http:%2F%2Flocalhost:21575&response_type=id_token&scope=openid
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.024 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.024 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.024 -06:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44300/\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"1\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid\",
+  \"State\": \"927711463578079\",
+  \"Nonce\": \"859059496832706\",
+  \"SessionId\": \"36d87912ccd5c06f30ec14ce3745394d\",
+  \"Raw\": {
+    \"state\": \"927711463578079\",
+    \"nonce\": \"859059496832706\",
+    \"client_id\": \"implicitClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.025 -06:00 [Information] Creating Implicit Flow response.
+2015-11-16 10:08:22.025 -06:00 [Debug] Creating identity token
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.025 -06:00 [Information] Getting claims for identity token for subject: 1
+2015-11-16 10:08:22.025 -06:00 [Debug] Creating JWT identity token
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.036 -06:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Identity token issued",
+  "EventType": "Information",
+  "Id": 2001,
+  "Details": {
+    "SubjectId": "1",
+    "ClientId": "implicitClient",
+    "Lifetime": 300,
+    "Claims": {
+      "nonce": "859059496832706",
+      "iat": 1447690102,
+      "sub": "1",
+      "amr": "password",
+      "auth_time": 1447690102,
+      "idp": "idsrv",
+      "given_name": "Scott",
+      "family_name": "Sloan",
+      "email": "scottsloan@gmail.com",
+      "role": [
+        "Geek",
+        "Foo"
+      ]
+    }
+  },
+  "Context": {
+    "ActivityId": "80000008-0003-eb00-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:08:22.0358601+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.036 -06:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint success",
+  "EventType": "Success",
+  "Id": 3000,
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "80000008-0003-eb00-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:08:22.0367304+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.036 -06:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.036 -06:00 [Information] Redirecting to: http://localhost:21575
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.079 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.079 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.079 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.081 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.098 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.098 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.098 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.099 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.120 -06:00 [Information] CORS request made for path: "/.well-known/jwks" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.120 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.120 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.121 -06:00 [Information] Start key discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:22.192 -06:00 [Information] Check session iframe request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:43.722 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:43.723 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:08:43.723 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:08:43.723 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:43.759 -06:00 [Information] Check session iframe request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.389 -06:00 [Information] Start end session request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.389 -06:00 [Information] Start end session request validation
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.389 -06:00 [Information] Start identity token validation
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.391 -06:00 [Information] "Token validation success"
+"{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"ValidateLifetime\": false,
+  \"Claims\": {
+    \"nonce\": \"859059496832706\",
+    \"iat\": \"1447690102\",
+    \"sub\": \"1\",
+    \"amr\": \"password\",
+    \"auth_time\": \"1447690102\",
+    \"idp\": \"idsrv\",
+    \"given_name\": \"Scott\",
+    \"family_name\": \"Sloan\",
+    \"email\": \"scottsloan@gmail.com\",
+    \"role\": [
+      \"Geek\",
+      \"Foo\"
+    ],
+    \"iss\": \"https://localhost:44301/core\",
+    \"aud\": \"implicitClient\",
+    \"exp\": \"1447690402\",
+    \"nbf\": \"1447690102\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.391 -06:00 [Information] "End session request validation success"
+"{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"SubjectId\": \"1\",
+  \"PostLogOutUri\": \"http://localhost:21575\",
+  \"Raw\": {
+    \"post_logout_redirect_uri\": \"http://localhost:21575\",
+    \"id_token_hint\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSIsImtpZCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSJ9.eyJub25jZSI6Ijg1OTA1OTQ5NjgzMjcwNiIsImlhdCI6MTQ0NzY5MDEwMiwic3ViIjoiMSIsImFtciI6WyJwYXNzd29yZCJdLCJhdXRoX3RpbWUiOjE0NDc2OTAxMDIsImlkcCI6Imlkc3J2IiwiZ2l2ZW5fbmFtZSI6IlNjb3R0IiwiZmFtaWx5X25hbWUiOiJTbG9hbiIsImVtYWlsIjoic2NvdHRzbG9hbkBnbWFpbC5jb20iLCJyb2xlIjpbIkdlZWsiLCJGb28iXSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzMDEvY29yZSIsImF1ZCI6ImltcGxpY2l0Q2xpZW50IiwiZXhwIjoxNDQ3NjkwNDAyLCJuYmYiOjE0NDc2OTAxMDJ9.JlrD7bIasNTKhXSaDY8j5qTgDW8T66vFvZIf1Cf56A25dtxXIKdQNmOUaiQpLI-YItV2eM0nJDS1CHkKBFY3VWs6yoTMjZqUa7dos8--gHi-a69DcV1gJgGPHf7uUa-LHM-8kgPHbB2Fa4MsdfW3iS0-JymkcZY79uHcJxFpp2LyBsq2KUOYD9PZs2adJZ977zTB-809ou13lH4AthyAydaVyRqFD-VJWPm19pQFNWbubPULM-1k0q8mFCLfs4-uqB38oitOuNgonOP8cUih176E56FU4h1QVgHAhgAuM64Q5GNKk78UUdBjeKJEH5Dmm2uByfZcqajk27UEuM3hjA\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.391 -06:00 [Information] End end session request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.391 -06:00 [Information] Redirecting to logout page
+2015-11-16 10:08:45.391 -06:00 [Debug] Protecting message: "{\"ClientId\":\"implicitClient\",\"ReturnUrl\":\"http://localhost:21575\",\"Created\":635832869253918213}"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.398 -06:00 [Information] Logout prompt for subject: "1"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.399 -06:00 [Information] SignOutMessage present (from client "implicitClient"), performing logout
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.399 -06:00 [Information] Logout endpoint submitted
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.399 -06:00 [Information] Logout requested for subject: "1"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.399 -06:00 [Information] Clearing cookies
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.399 -06:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Logout Event",
+  "EventType": "Information",
+  "Id": 1030,
+  "Details": {
+    "SignOutId": "a0b55a45b0d080404867555780ced84a",
+    "SignOutMessage": {
+      "ClientId": "implicitClient",
+      "ReturnUrl": "http://localhost:21575",
+      "Created": 635832869253918213
+    },
+    "SubjectId": "1",
+    "Name": "s"
+  },
+  "Context": {
+    "ActivityId": "80000014-0002-f500-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:08:45.3999101+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.399 -06:00 [Information] rendering logged out page
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.611 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.613 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.613 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:08:45.616 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:46.760 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:46.760 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-11-16 10:08:46.760 -06:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44300/\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid\",
+  \"State\": \"5950718006476232\",
+  \"Nonce\": \"16270421528440436\",
+  \"Raw\": {
+    \"state\": \"5950718006476232\",
+    \"nonce\": \"16270421528440436\",
+    \"client_id\": \"implicitClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:46.760 -06:00 [Information] User is not authenticated. Redirecting to login.
+iisexpress.exe Information: 0 : 2015-11-16 10:08:46.760 -06:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:46.760 -06:00 [Information] Redirecting to login page
+2015-11-16 10:08:46.760 -06:00 [Debug] Protecting message: "{\"ReturnUrl\":\"https://localhost:44301/core/connect/authorize?state=5950718006476232&nonce=16270421528440436&client_id=implicitClient&redirect_uri=http%3A%2F%2Flocalhost%3A21575&response_type=id_token&scope=openid\",\"ClientId\":\"implicitClient\",\"AcrValues\":[],\"Created\":635832869267608905}"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:46.770 -06:00 [Information] Login page requested
+2015-11-16 10:08:46.770 -06:00 [Debug] signin message passed to login: "{
+  \"ReturnUrl\": \"https://localhost:44301/core/connect/authorize?state=5950718006476232&nonce=16270421528440436&client_id=implicitClient&redirect_uri=http%3A%2F%2Flocalhost%3A21575&response_type=id_token&scope=openid\",
+  \"ClientId\": \"implicitClient\",
+  \"IdP\": null,
+  \"Tenant\": null,
+  \"LoginHint\": null,
+  \"DisplayMode\": null,
+  \"UiLocales\": null,
+  \"AcrValues\": [],
+  \"Created\": 635832869267608905
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:46.771 -06:00 [Information] rendering login page
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.439 -06:00 [Information] Login page submitted
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.439 -06:00 [Information] Login credentials successfully validated by user service
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.439 -06:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Local Login Success",
+  "EventType": "Success",
+  "Id": 1010,
+  "Details": {
+    "LoginUserName": "s",
+    "SignInId": "bf6e4e18dad6247956cfc0734e6453d9",
+    "SignInMessage": {
+      "ReturnUrl": "https://localhost:44301/core/connect/authorize?state=5950718006476232&nonce=16270421528440436&client_id=implicitClient&redirect_uri=http%3A%2F%2Flocalhost%3A21575&response_type=id_token&scope=openid",
+      "ClientId": "implicitClient",
+      "AcrValues": [],
+      "Created": 635832869267608905
+    },
+    "PartialLogin": false,
+    "SubjectId": "1",
+    "Name": "s"
+  },
+  "Context": {
+    "ActivityId": "80000017-0001-f600-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:08:53.4399625+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.440 -06:00 [Information] Calling PostAuthenticateAsync on the user service
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.440 -06:00 [Information] issuing primary signin cookie
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.440 -06:00 [Information] redirecting to: https://localhost:44301/core/connect/authorize?state=5950718006476232&nonce=16270421528440436&client_id=implicitClient&redirect_uri=http:%2F%2Flocalhost:21575&response_type=id_token&scope=openid
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.449 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.449 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.449 -06:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"https://localhost:44300/\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"1\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid\",
+  \"State\": \"5950718006476232\",
+  \"Nonce\": \"16270421528440436\",
+  \"SessionId\": \"616ac6e03516abf4adb6b4224fbe19dd\",
+  \"Raw\": {
+    \"state\": \"5950718006476232\",
+    \"nonce\": \"16270421528440436\",
+    \"client_id\": \"implicitClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.449 -06:00 [Information] Creating Implicit Flow response.
+2015-11-16 10:08:53.449 -06:00 [Debug] Creating identity token
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.449 -06:00 [Information] Getting claims for identity token for subject: 1
+2015-11-16 10:08:53.449 -06:00 [Debug] Creating JWT identity token
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.460 -06:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Identity token issued",
+  "EventType": "Information",
+  "Id": 2001,
+  "Details": {
+    "SubjectId": "1",
+    "ClientId": "implicitClient",
+    "Lifetime": 300,
+    "Claims": {
+      "nonce": "16270421528440436",
+      "iat": 1447690133,
+      "sub": "1",
+      "amr": "password",
+      "auth_time": 1447690133,
+      "idp": "idsrv",
+      "given_name": "Scott",
+      "family_name": "Sloan",
+      "email": "scottsloan@gmail.com",
+      "role": [
+        "Geek",
+        "Foo"
+      ]
+    }
+  },
+  "Context": {
+    "ActivityId": "80000018-0002-f500-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:08:53.4590186+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.460 -06:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint success",
+  "EventType": "Success",
+  "Id": 3000,
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "80000018-0002-f500-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:08:53.4600246+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.460 -06:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.460 -06:00 [Information] Redirecting to: http://localhost:21575
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.548 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.549 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.549 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.550 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.568 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.568 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.568 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.568 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.580 -06:00 [Information] CORS request made for path: "/.well-known/jwks" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.580 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.580 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.580 -06:00 [Information] Start key discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:08:53.660 -06:00 [Information] Check session iframe request
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.405 -06:00 [Information] Start end session request
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.405 -06:00 [Information] Start end session request validation
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.406 -06:00 [Information] Start identity token validation
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.407 -06:00 [Information] "Token validation success"
+"{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"ValidateLifetime\": false,
+  \"Claims\": {
+    \"nonce\": \"16270421528440436\",
+    \"iat\": \"1447690133\",
+    \"sub\": \"1\",
+    \"amr\": \"password\",
+    \"auth_time\": \"1447690133\",
+    \"idp\": \"idsrv\",
+    \"given_name\": \"Scott\",
+    \"family_name\": \"Sloan\",
+    \"email\": \"scottsloan@gmail.com\",
+    \"role\": [
+      \"Geek\",
+      \"Foo\"
+    ],
+    \"iss\": \"https://localhost:44301/core\",
+    \"aud\": \"implicitClient\",
+    \"exp\": \"1447690433\",
+    \"nbf\": \"1447690133\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.408 -06:00 [Information] "End session request validation success"
+"{
+  \"ClientId\": \"implicitClient\",
+  \"ClientName\": \"Example Implicit Client\",
+  \"SubjectId\": \"1\",
+  \"PostLogOutUri\": \"http://localhost:21575\",
+  \"Raw\": {
+    \"post_logout_redirect_uri\": \"http://localhost:21575\",
+    \"id_token_hint\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSIsImtpZCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSJ9.eyJub25jZSI6IjE2MjcwNDIxNTI4NDQwNDM2IiwiaWF0IjoxNDQ3NjkwMTMzLCJzdWIiOiIxIiwiYW1yIjpbInBhc3N3b3JkIl0sImF1dGhfdGltZSI6MTQ0NzY5MDEzMywiaWRwIjoiaWRzcnYiLCJnaXZlbl9uYW1lIjoiU2NvdHQiLCJmYW1pbHlfbmFtZSI6IlNsb2FuIiwiZW1haWwiOiJzY290dHNsb2FuQGdtYWlsLmNvbSIsInJvbGUiOlsiR2VlayIsIkZvbyJdLCJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo0NDMwMS9jb3JlIiwiYXVkIjoiaW1wbGljaXRDbGllbnQiLCJleHAiOjE0NDc2OTA0MzMsIm5iZiI6MTQ0NzY5MDEzM30.awyLiYI6qRR_hrckT3DaWp1A_i5A_Dgo3WSdzoKiE6FqDOOBJk1ndNiCv9d-L5b0dR79Acz-Oy4KEGGnD2kRlJuQ4fGSCs52ICElhX0p5vn83Li3HHfjlLAx3dPu7J_YJZgyj2RQcY8OGqKXFHnLYoTdDxMsJFnFWCqjkfjBhXzqRsqhGUx8T6Pcj8Evj8XwgW8wkegco2vdrjbOAc6y4Nh2PR9oGsfyP0T8wdOh71qHnV2ciDZDw88tWpzSy6NOT28jrnWbpPBYirODh5jOPHmpr6_QPBQCqfCXd-aW5y73qK9H_zt3D4knxJWtbB6C2r-wdiVoIFudWGAUIuxyOg\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.408 -06:00 [Information] End end session request
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.408 -06:00 [Information] Redirecting to logout page
+2015-11-16 10:09:28.408 -06:00 [Debug] Protecting message: "{\"ClientId\":\"implicitClient\",\"ReturnUrl\":\"http://localhost:21575\",\"Created\":635832869684085720}"
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.425 -06:00 [Information] Logout prompt for subject: "1"
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.425 -06:00 [Information] SignOutMessage present (from client "implicitClient"), performing logout
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.426 -06:00 [Information] Logout endpoint submitted
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.426 -06:00 [Information] Logout requested for subject: "1"
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.426 -06:00 [Information] Clearing cookies
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.426 -06:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Logout Event",
+  "EventType": "Information",
+  "Id": 1030,
+  "Details": {
+    "SignOutId": "ef97214f8a65d5ca23129b5197faab54",
+    "SignOutMessage": {
+      "ClientId": "implicitClient",
+      "ReturnUrl": "http://localhost:21575",
+      "Created": 635832869684085720
+    },
+    "SubjectId": "1",
+    "Name": "s"
+  },
+  "Context": {
+    "ActivityId": "8000004c-0003-fb00-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:09:28.4265413+00:00",
+    "ProcessId": 152,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.426 -06:00 [Information] rendering logged out page
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.668 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.669 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.669 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:09:28.680 -06:00 [Information] Start discovery request
+iisexpress.exe Warning: 0 : 2015-11-16 10:20:25.258 -06:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-16 10:20:25.277 -06:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-16 10:20:25.277 -06:00 [Warning] ConsentStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-16 10:20:25.277 -06:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+iisexpress.exe Information: 0 : 2015-11-16 10:20:26.079 -06:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-20T16:00:00-06:00"
+  },
+  "Context": {
+    "TimeStamp": "2015-11-16T16:20:25.8715951+00:00",
+    "ProcessId": 7660,
+    "MachineName": "L30005"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:20:26.376 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:20:26.383 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:20:26.383 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:20:26.603 -06:00 [Information] Welcome page requested - rendering
+iisexpress.exe Information: 0 : 2015-11-16 10:20:26.606 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:20:26.840 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:20:26.859 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Error: 0 : 2015-11-16 10:20:26.896 -06:00 [Error] "Invalid flow for client: Implicit"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:9000\",
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"\",
+  \"State\": \"6134696574216799\",
+  \"Raw\": {
+    \"state\": \"6134696574216799\",
+    \"nonce\": \"7816910888621362\",
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:20:26.902 -06:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint failure",
+  "EventType": "Failure",
+  "Id": 3001,
+  "Message": "unauthorized_client",
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "80000021-0001-f600-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:20:26.9002059+00:00",
+    "ProcessId": 7660,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:20:26.905 -06:00 [Information] End authorize request
+iisexpress.exe Warning: 0 : 2015-11-16 10:21:41.406 -06:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-16 10:21:41.422 -06:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-16 10:21:41.422 -06:00 [Warning] ConsentStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-16 10:21:41.422 -06:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+iisexpress.exe Information: 0 : 2015-11-16 10:21:41.970 -06:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-20T16:00:00-06:00"
+  },
+  "Context": {
+    "TimeStamp": "2015-11-16T16:21:41.8507679+00:00",
+    "ProcessId": 6332,
+    "MachineName": "L30005"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:21:42.335 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:21:42.340 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:21:42.340 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:21:42.663 -06:00 [Information] Welcome page requested - rendering
+iisexpress.exe Information: 0 : 2015-11-16 10:21:42.671 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:21:45.867 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:21:45.872 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Error: 0 : 2015-11-16 10:21:45.894 -06:00 [Error] "Invalid flow for client: Implicit"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"\",
+  \"State\": \"13121142221310847\",
+  \"Raw\": {
+    \"state\": \"13121142221310847\",
+    \"nonce\": \"14127356833010322\",
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:21:45.899 -06:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint failure",
+  "EventType": "Failure",
+  "Id": 3001,
+  "Message": "unauthorized_client",
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "80000004-0000-e400-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:21:45.8978373+00:00",
+    "ProcessId": 6332,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:21:45.900 -06:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:21:56.252 -06:00 [Information] CORS request made for path: "/.well-known/openid-configuration" from origin: "http://localhost:21575"
+iisexpress.exe Information: 0 : 2015-11-16 10:21:56.253 -06:00 [Information] AllowAll true, so origin: "http://localhost:21575" is allowed
+iisexpress.exe Information: 0 : 2015-11-16 10:21:56.253 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-16 10:21:56.257 -06:00 [Information] Start discovery request
+iisexpress.exe Information: 0 : 2015-11-16 10:21:58.613 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:21:58.614 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Error: 0 : 2015-11-16 10:21:58.614 -06:00 [Error] "Invalid flow for client: Implicit"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"\",
+  \"State\": \"8729721752379602\",
+  \"Raw\": {
+    \"state\": \"8729721752379602\",
+    \"nonce\": \"13594836230121755\",
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:21:58.614 -06:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint failure",
+  "EventType": "Failure",
+  "Id": 3001,
+  "Message": "unauthorized_client",
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "80000022-0001-ef00-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:21:58.6147605+00:00",
+    "ProcessId": 6332,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:21:58.614 -06:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:22:02.658 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:22:02.658 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Error: 0 : 2015-11-16 10:22:02.659 -06:00 [Error] "Invalid flow for client: Implicit"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"\",
+  \"State\": \"6193479120016775\",
+  \"Raw\": {
+    \"state\": \"6193479120016775\",
+    \"nonce\": \"13883031696715164\",
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:22:02.659 -06:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint failure",
+  "EventType": "Failure",
+  "Id": 3001,
+  "Message": "unauthorized_client",
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "80000009-0000-ec00-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:22:02.6594104+00:00",
+    "ProcessId": 6332,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:22:02.659 -06:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:22:08.188 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-16 10:22:08.188 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Error: 0 : 2015-11-16 10:22:08.189 -06:00 [Error] "Invalid flow for client: Implicit"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"http://localhost:21575\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:21575\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"\",
+  \"State\": \"12976413680935541\",
+  \"Raw\": {
+    \"state\": \"12976413680935541\",
+    \"nonce\": \"6158878214203203\",
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"http://localhost:21575\",
+    \"response_type\": \"id_token\",
+    \"scope\": \"openid\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-16 10:22:08.189 -06:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint failure",
+  "EventType": "Failure",
+  "Id": 3001,
+  "Message": "unauthorized_client",
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "800001ac-0002-fc00-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-16T16:22:08.1899242+00:00",
+    "ProcessId": 6332,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-16 10:22:08.189 -06:00 [Information] End authorize request
+iisexpress.exe Warning: 0 : 2015-11-19 16:05:58.915 -06:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-19 16:05:58.931 -06:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-19 16:05:58.931 -06:00 [Warning] ConsentStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-19 16:05:58.931 -06:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+iisexpress.exe Information: 0 : 2015-11-19 16:05:59.272 -06:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-20T16:00:00-06:00"
+  },
+  "Context": {
+    "TimeStamp": "2015-11-19T22:05:59.1828936+00:00",
+    "ProcessId": 7088,
+    "MachineName": "L30005"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-19 16:05:59.590 -06:00 [Information] Welcome page requested - rendering
+iisexpress.exe Warning: 0 : 2015-11-19 16:08:34.135 -06:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-19 16:08:34.148 -06:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-19 16:08:34.149 -06:00 [Warning] ConsentStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-19 16:08:34.149 -06:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+iisexpress.exe Information: 0 : 2015-11-19 16:08:34.704 -06:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-20T16:00:00-06:00"
+  },
+  "Context": {
+    "TimeStamp": "2015-11-19T22:08:34.5891327+00:00",
+    "ProcessId": 7392,
+    "MachineName": "L30005"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-19 16:08:34.913 -06:00 [Information] Welcome page requested - rendering
+iisexpress.exe Warning: 0 : 2015-11-19 16:26:19.074 -06:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-19 16:26:19.086 -06:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-19 16:26:19.086 -06:00 [Warning] ConsentStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 2015-11-19 16:26:19.086 -06:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+iisexpress.exe Information: 0 : 2015-11-19 16:26:19.379 -06:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-20T16:00:00-06:00"
+  },
+  "Context": {
+    "TimeStamp": "2015-11-19T22:26:19.3002077+00:00",
+    "ProcessId": 8092,
+    "MachineName": "L30005"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-19 16:26:19.584 -06:00 [Information] Welcome page requested - rendering
+iisexpress.exe Information: 0 : 2015-11-19 16:26:29.826 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-19 16:26:29.834 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-11-19 16:26:29.848 -06:00 [Information] Unsupported display mode - ignored: popup
+iisexpress.exe Information: 0 : 2015-11-19 16:26:29.866 -06:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"http://localhost:9000\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:9000\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"code id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Hybrid\",
+  \"RequestedScopes\": \"profile apiAccess openid\",
+  \"Nonce\": \"6929079141892354\",
+  \"DisplayMode\": \"popup\",
+  \"Raw\": {
+    \"response_type\": \"code id_token token\",
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"http://localhost:9000\",
+    \"scope\": \"profile apiAccess openid\",
+    \"nonce\": \"6929079141892354\",
+    \"display\": \"popup\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-19 16:26:29.870 -06:00 [Information] User is not authenticated. Redirecting to login.
+iisexpress.exe Information: 0 : 2015-11-19 16:26:29.876 -06:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-11-19 16:26:29.879 -06:00 [Information] Redirecting to login page
+2015-11-19 16:26:29.889 -06:00 [Debug] Protecting message: "{\"ReturnUrl\":\"https://localhost:44301/core/connect/authorize?response_type=code%20id_token%20token&client_id=jsClient&redirect_uri=http%3A%2F%2Flocalhost%3A9000&scope=profile%20apiAccess%20openid&nonce=6929079141892354&display=popup\",\"ClientId\":\"jsClient\",\"DisplayMode\":\"popup\",\"AcrValues\":[],\"Created\":635835687897886020}"
+iisexpress.exe Information: 0 : 2015-11-19 16:26:29.938 -06:00 [Information] Login page requested
+2015-11-19 16:26:29.969 -06:00 [Debug] signin message passed to login: "{
+  \"ReturnUrl\": \"https://localhost:44301/core/connect/authorize?response_type=code%20id_token%20token&client_id=jsClient&redirect_uri=http%3A%2F%2Flocalhost%3A9000&scope=profile%20apiAccess%20openid&nonce=6929079141892354&display=popup\",
+  \"ClientId\": \"jsClient\",
+  \"IdP\": null,
+  \"Tenant\": null,
+  \"LoginHint\": null,
+  \"DisplayMode\": \"popup\",
+  \"UiLocales\": null,
+  \"AcrValues\": [],
+  \"Created\": 635835687897886020
+}"
+iisexpress.exe Information: 0 : 2015-11-19 16:26:29.976 -06:00 [Information] rendering login page
+iisexpress.exe Information: 0 : 2015-11-19 16:26:33.401 -06:00 [Information] Login page submitted
+iisexpress.exe Information: 0 : 2015-11-19 16:26:33.404 -06:00 [Information] Login credentials successfully validated by user service
+iisexpress.exe Information: 0 : 2015-11-19 16:26:33.411 -06:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Local Login Success",
+  "EventType": "Success",
+  "Id": 1010,
+  "Details": {
+    "LoginUserName": "s",
+    "SignInId": "2cbaaf2028642b885e6f41b91312aec2",
+    "SignInMessage": {
+      "ReturnUrl": "https://localhost:44301/core/connect/authorize?response_type=code%20id_token%20token&client_id=jsClient&redirect_uri=http%3A%2F%2Flocalhost%3A9000&scope=profile%20apiAccess%20openid&nonce=6929079141892354&display=popup",
+      "ClientId": "jsClient",
+      "DisplayMode": "popup",
+      "AcrValues": [],
+      "Created": 635835687897886020
+    },
+    "PartialLogin": false,
+    "SubjectId": "1",
+    "Name": "s"
+  },
+  "Context": {
+    "ActivityId": "80000006-0000-f600-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-19T22:26:33.4085856+00:00",
+    "ProcessId": 8092,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-19 16:26:33.414 -06:00 [Information] Calling PostAuthenticateAsync on the user service
+iisexpress.exe Information: 0 : 2015-11-19 16:26:33.416 -06:00 [Information] issuing primary signin cookie
+iisexpress.exe Information: 0 : 2015-11-19 16:26:33.419 -06:00 [Information] redirecting to: https://localhost:44301/core/connect/authorize?response_type=code id_token token&client_id=jsClient&redirect_uri=http:%2F%2Flocalhost:9000&scope=profile apiAccess openid&nonce=6929079141892354&display=popup
+iisexpress.exe Information: 0 : 2015-11-19 16:26:33.440 -06:00 [Information] Start authorize request
+iisexpress.exe Information: 0 : 2015-11-19 16:26:33.440 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-11-19 16:26:33.440 -06:00 [Information] Unsupported display mode - ignored: popup
+iisexpress.exe Information: 0 : 2015-11-19 16:26:33.440 -06:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"http://localhost:9000\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:9000\"
+  ],
+  \"SubjectId\": \"1\",
+  \"ResponseType\": \"code id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Hybrid\",
+  \"RequestedScopes\": \"profile apiAccess openid\",
+  \"Nonce\": \"6929079141892354\",
+  \"DisplayMode\": \"popup\",
+  \"SessionId\": \"43e3353420686c4d3dc265560ee71354\",
+  \"Raw\": {
+    \"response_type\": \"code id_token token\",
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"http://localhost:9000\",
+    \"scope\": \"profile apiAccess openid\",
+    \"nonce\": \"6929079141892354\",
+    \"display\": \"popup\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-19 16:26:33.445 -06:00 [Information] Showing consent screen
+iisexpress.exe Information: 0 : 2015-11-19 16:26:33.447 -06:00 [Information] End authorize request
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.156 -06:00 [Information] Resuming from consent, restarting validation
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.156 -06:00 [Information] Start authorize request protocol validation
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.156 -06:00 [Information] Unsupported display mode - ignored: popup
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.156 -06:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"jsClient\",
+  \"ClientName\": \"jsClient\",
+  \"RedirectUri\": \"http://localhost:9000\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:9000\"
+  ],
+  \"SubjectId\": \"1\",
+  \"ResponseType\": \"code id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"Flow\": \"Hybrid\",
+  \"RequestedScopes\": \"profile apiAccess openid\",
+  \"Nonce\": \"6929079141892354\",
+  \"DisplayMode\": \"popup\",
+  \"SessionId\": \"43e3353420686c4d3dc265560ee71354\",
+  \"Raw\": {
+    \"response_type\": \"code id_token token\",
+    \"client_id\": \"jsClient\",
+    \"redirect_uri\": \"http://localhost:9000\",
+    \"scope\": \"profile apiAccess openid\",
+    \"nonce\": \"6929079141892354\",
+    \"display\": \"popup\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.165 -06:00 [Information] Creating Hybrid Flow response.
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.173 -06:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Authorization code issued",
+  "EventType": "Information",
+  "Id": 2010,
+  "Details": {
+    "HandleId": "f445f808cbdeca3dc95d48b306815e71",
+    "RedirectUri": "http://localhost:9000",
+    "SubjectId": "1",
+    "ClientId": "jsClient",
+    "Scopes": [
+      "profile",
+      "apiAccess",
+      "openid"
+    ],
+    "Lifetime": 300
+  },
+  "Context": {
+    "ActivityId": "80000008-0000-f600-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-19T22:26:35.1696584+00:00",
+    "ProcessId": 8092,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.175 -06:00 [Information] Creating Implicit Flow response.
+2015-11-19 16:26:35.177 -06:00 [Debug] Creating access token
+2015-11-19 16:26:35.183 -06:00 [Debug] Creating JWT access token
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.229 -06:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Access token issued",
+  "EventType": "Information",
+  "Id": 2000,
+  "Details": {
+    "TokenType": "Jwt",
+    "SubjectId": "1",
+    "ClientId": "jsClient",
+    "Scopes": [
+      "profile",
+      "apiAccess",
+      "openid"
+    ],
+    "Lifetime": 3600,
+    "Claims": {
+      "client_id": "jsClient",
+      "scope": [
+        "profile",
+        "apiAccess",
+        "openid"
+      ],
+      "sub": "1",
+      "amr": "password",
+      "auth_time": 1447971993,
+      "idp": "idsrv",
+      "given_name": "Scott",
+      "family_name": "Sloan",
+      "email": "scottsloan@gmail.com",
+      "role": [
+        "Geek",
+        "Foo"
+      ]
+    }
+  },
+  "Context": {
+    "ActivityId": "80000008-0000-f600-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-19T22:26:35.2245948+00:00",
+    "ProcessId": 8092,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+2015-11-19 16:26:35.231 -06:00 [Debug] Creating identity token
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.233 -06:00 [Information] Getting claims for identity token for subject: 1
+2015-11-19 16:26:35.233 -06:00 [Debug] Creating JWT identity token
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.244 -06:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Identity token issued",
+  "EventType": "Information",
+  "Id": 2001,
+  "Details": {
+    "SubjectId": "1",
+    "ClientId": "jsClient",
+    "Lifetime": 300,
+    "Claims": {
+      "nonce": "6929079141892354",
+      "iat": 1447971995,
+      "at_hash": "5-qpb4nIHiE3dp4v9-ZVxQ",
+      "c_hash": "Cs5A09-h0UE0fU5pr2i2Pg",
+      "sub": "1",
+      "amr": "password",
+      "auth_time": 1447971993,
+      "idp": "idsrv",
+      "given_name": "Scott",
+      "family_name": "Sloan",
+      "email": "scottsloan@gmail.com",
+      "role": [
+        "Geek",
+        "Foo"
+      ]
+    }
+  },
+  "Context": {
+    "ActivityId": "80000008-0000-f600-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-19T22:26:35.2425742+00:00",
+    "ProcessId": 8092,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.248 -06:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint success",
+  "EventType": "Success",
+  "Id": 3000,
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "80000008-0000-f600-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-19T22:26:35.2475694+00:00",
+    "ProcessId": 8092,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.249 -06:00 [Information] Redirecting to: http://localhost:9000
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.877 -06:00 [Information] CORS request made for path: "/connect/userinfo" from origin: "http://localhost:9000"
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.879 -06:00 [Information] AllowAll true, so origin: "http://localhost:9000" is allowed
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.879 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.891 -06:00 [Information] CORS request made for path: "/connect/userinfo" from origin: "http://localhost:9000"
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.891 -06:00 [Information] AllowAll true, so origin: "http://localhost:9000" is allowed
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.891 -06:00 [Information] CorsPolicyService allowed origin
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.897 -06:00 [Information] Start userinfo request
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.898 -06:00 [Information] Token found: AuthorizationHeader
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.901 -06:00 [Information] Start access token validation
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.932 -06:00 [Information] "Token validation success"
+"{
+  \"ValidateLifetime\": true,
+  \"AccessTokenType\": \"Jwt\",
+  \"ExpectedScope\": \"openid\",
+  \"Claims\": {
+    \"client_id\": \"jsClient\",
+    \"scope\": [
+      \"profile\",
+      \"apiAccess\",
+      \"openid\"
+    ],
+    \"sub\": \"1\",
+    \"amr\": \"password\",
+    \"auth_time\": \"1447971993\",
+    \"idp\": \"idsrv\",
+    \"given_name\": \"Scott\",
+    \"family_name\": \"Sloan\",
+    \"email\": \"scottsloan@gmail.com\",
+    \"role\": [
+      \"Geek\",
+      \"Foo\"
+    ],
+    \"iss\": \"https://localhost:44301/core\",
+    \"aud\": \"https://localhost:44301/core/resources\",
+    \"exp\": \"1447975595\",
+    \"nbf\": \"1447971995\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.948 -06:00 [Information] Creating userinfo response
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.948 -06:00 [Information] Scopes in access token: "profile apiAccess openid"
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.948 -06:00 [Information] Requested claim types: "name family_name given_name middle_name nickname preferred_username profile picture website gender birthdate zoneinfo locale updated_at sub"
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.948 -06:00 [Information] Profile service returned to the following claim types: "given_name family_name email role role"
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.948 -06:00 [Information] End userinfo request
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.948 -06:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint success",
+  "EventType": "Success",
+  "Id": 3000,
+  "Details": {
+    "EndpointName": "userinfo"
+  },
+  "Context": {
+    "ActivityId": "8000000b-0002-ff00-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-19T22:26:35.948173+00:00",
+    "ProcessId": 8092,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-19 16:26:35.948 -06:00 [Information] Returning userinfo response.
+iisexpress.exe Information: 0 : 2015-11-19 16:26:37.195 -06:00 [Information] Start end session request
+iisexpress.exe Information: 0 : 2015-11-19 16:26:37.199 -06:00 [Information] Start end session request validation
+iisexpress.exe Information: 0 : 2015-11-19 16:26:37.201 -06:00 [Information] Start identity token validation
+iisexpress.exe Error: 0 : 2015-11-19 16:26:37.202 -06:00 [Error] "Unknown or diabled client."
+"{
+  \"ClientId\": \"https://localhost:44301/core/resources\",
+  \"ValidateLifetime\": false
+}"
+iisexpress.exe Error: 0 : 2015-11-19 16:26:37.205 -06:00 [Error] "Error validating id token hint."
+"{
+  \"SubjectId\": \"1\",
+  \"Raw\": {
+    \"id_token_hint\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSIsImtpZCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSJ9.eyJjbGllbnRfaWQiOiJqc0NsaWVudCIsInNjb3BlIjpbInByb2ZpbGUiLCJhcGlBY2Nlc3MiLCJvcGVuaWQiXSwic3ViIjoiMSIsImFtciI6WyJwYXNzd29yZCJdLCJhdXRoX3RpbWUiOjE0NDc5NzE5OTMsImlkcCI6Imlkc3J2IiwiZ2l2ZW5fbmFtZSI6IlNjb3R0IiwiZmFtaWx5X25hbWUiOiJTbG9hbiIsImVtYWlsIjoic2NvdHRzbG9hbkBnbWFpbC5jb20iLCJyb2xlIjpbIkdlZWsiLCJGb28iXSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzMDEvY29yZSIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzAxL2NvcmUvcmVzb3VyY2VzIiwiZXhwIjoxNDQ3OTc1NTk1LCJuYmYiOjE0NDc5NzE5OTV9.isF3k3wMwxJzbQXdCbckMm9f_9kbjI00zrX8FMhqP1-n6e9QSMPWjiIK5JVJN3G8KV_98N-Xj_bu5qs2-iniV26yBI1ZimqAf8PuoE2OkHouyCBKX01xGIqofyXDRufUg77ITL9GRKmXlvTPWoI455EsFOiKC5eYPwR2E7JqimsWVj_cmw8vZSShJ3Qe4nAOr3BH7ZzTvTDoKGNeyKKv3BMosLJ_vdlkfN-tJfqY434tHwH7i0vSNnSRDCtOxfp8Jt0PCW3aoahJk8DUa9_Cep-jsSKTkK_SihEhmpOiptqKPpUgOFVcxU87CAE1I1xeFt20IsCKJrH_ET_zTMFtyQ\",
+    \"post_logout_redirect_uri\": \"#/login\"
+  }
+}"
+iisexpress.exe Information: 0 : 2015-11-19 16:26:37.206 -06:00 [Information] Redirecting to logout page
+iisexpress.exe Information: 0 : 2015-11-19 16:26:37.220 -06:00 [Information] Logout prompt for subject: "1"
+iisexpress.exe Information: 0 : 2015-11-19 16:26:37.220 -06:00 [Information] EnableSignOutPrompt set to true, rendering logout prompt
+iisexpress.exe Information: 0 : 2015-11-19 16:26:38.644 -06:00 [Information] Logout endpoint submitted
+iisexpress.exe Information: 0 : 2015-11-19 16:26:38.644 -06:00 [Information] Logout requested for subject: "1"
+iisexpress.exe Information: 0 : 2015-11-19 16:26:38.644 -06:00 [Information] Clearing cookies
+iisexpress.exe Information: 0 : 2015-11-19 16:26:38.648 -06:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Logout Event",
+  "EventType": "Information",
+  "Id": 1030,
+  "Details": {
+    "SubjectId": "1",
+    "Name": "s"
+  },
+  "Context": {
+    "ActivityId": "80000004-0002-fb00-b63f-84710c7967bb",
+    "TimeStamp": "2015-11-19T22:26:38.6466467+00:00",
+    "ProcessId": 8092,
+    "MachineName": "L30005",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "1"
+  }
+}
+iisexpress.exe Information: 0 : 2015-11-19 16:26:38.649 -06:00 [Information] rendering logged out page
+iisexpress.exe Information: 0 : 2015-11-19 16:26:38.765 -06:00 [Information] End session callback requested
